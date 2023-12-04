@@ -14,18 +14,18 @@ class TEAM13_GAME_API UDirectionHelper : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 	UFUNCTION(BlueprintCallable, Category = "Helper")
-	static bool IsFacingToSide(float vx, float vy);
+	static bool IsFacingToSide(float ax, float ay);
 
 	UFUNCTION(BlueprintCallable, Category = "Helper")
-	static bool IsFacingFront(float vx, float vy);
+	static bool IsFacingFront(float ax, float ay);
 
 	UFUNCTION(BlueprintCallable, Category = "Helper")
-	static bool IsFacingBack(float vx, float vy);
+	static bool IsFacingBack(float ax, float ay);
 
 	UFUNCTION(BlueprintCallable, Category = "Helper")
-	static bool IsFacingToBackAndSide(float vx, float vy);
+	static bool IsFacingToBackAndSide(float ax, float ay);
 
 	UFUNCTION(BlueprintCallable, Category = "Helper")
-	static bool IsFacingToFrontAndSide(float vx, float vy);
+	static bool IsFacingToFrontAndSide(float ax, float ay);
 
 };

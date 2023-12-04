@@ -4,27 +4,27 @@
 #include "Team13_Game/Helper/DirectionHelper.h"
 #include "DirectionHelper.h"
 
-bool UDirectionHelper::IsFacingToSide(float vx, float vy)
+bool UDirectionHelper::IsFacingToSide(float ax, float ay)
 {
-	return vx != 0 && vy == 0;
+	return ax != 0 && ay == 0;
 }
 
-bool UDirectionHelper::IsFacingFront(float vx, float vy)
+bool UDirectionHelper::IsFacingFront(float ax, float ay)
 {
-	return vx == 0 && vy > 0;
+	return ax == 0 && ay > 0;
 }
 
-bool UDirectionHelper::IsFacingBack(float vx, float vy)
+bool UDirectionHelper::IsFacingBack(float ax, float ay)
 {
-	return vx == 0 && vy < 0;
+	return ax == 0 && ay < 0;
 }
 
-bool UDirectionHelper::IsFacingToBackAndSide(float vx, float vy)
+bool UDirectionHelper::IsFacingToBackAndSide(float ax, float ay)
 {
-	return (vx > 0 && vy < 0) || (vx < 0 && vy < 0);
+	return (ax > 0 && ay < 0) || (ax < 0 && ay < 0);
 }
 
-bool UDirectionHelper::IsFacingToFrontAndSide(float vx, float vy)
+bool UDirectionHelper::IsFacingToFrontAndSide(float ax, float ay)
 {
-	return (vx > 0 && vy > 0) || (vx < 0 && vy > 0);
+	return (ax > 0 && ay > 0) || (ax < 0 && ay > 0);
 }
