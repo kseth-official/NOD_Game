@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CommonOpsEditor.cpp.obj": [
+			"CommonOpsEditor.cpp.obj",
+			"AxClientAssetsAuthNotifications.cpp.obj"
+		]
+	}
+}
