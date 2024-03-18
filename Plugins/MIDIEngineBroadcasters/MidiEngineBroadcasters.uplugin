@@ -1,0 +1,93 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.2.1",
+	"FriendlyName": "MIDI Engine : Broadcasters",
+	"Description": "Adds Support for Broadcasting MIDI Events from UAxMidiAssets.",
+	"Category": "Algosyntax | MIDI",
+	"CreatedBy": "Algosyntax",
+	"CreatedByURL": "https://algosyntax.com",
+	"DocsURL": "https://store.algosyntax.com/docs/midi-engine-broadcasters/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/a3051dc30284411f986bbe6b2a7deb7f",
+	"SupportURL": "https://store.algosyntax.com/contact",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64",
+		"Mac",
+		"Android",
+		"Linux",
+		"IOS"
+	],
+	"Modules": [
+		{
+			"Name": "AxMidiBroadcasters",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Android",
+				"Linux",
+				"IOS"
+			]
+		},
+		{
+			"Name": "AxMidiCore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Android",
+				"Linux",
+				"IOS"
+			]
+		},
+		{
+			"Name": "AxMidiCoreEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "MidiLib",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Android",
+				"Linux",
+				"IOS"
+			]
+		},
+		{
+			"Name": "CommonOps",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Android",
+				"Linux",
+				"IOS"
+			]
+		},
+		{
+			"Name": "CommonOpsEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	]
+}

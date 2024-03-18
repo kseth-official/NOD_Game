@@ -1,0 +1,107 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Factories/AxMidiAssetFactory.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef AXMIDICOREEDITOR_AxMidiAssetFactory_generated_h
+#error "AxMidiAssetFactory.generated.h already included, missing '#pragma once' in AxMidiAssetFactory.h"
+#endif
+#define AXMIDICOREEDITOR_AxMidiAssetFactory_generated_h
+
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_SPARSE_DATA
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_ACCESSORS
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAxMidiAssetFactoryNew(); \
+	friend struct Z_Construct_UClass_UAxMidiAssetFactoryNew_Statics; \
+public: \
+	DECLARE_CLASS(UAxMidiAssetFactoryNew, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AxMidiCoreEditor"), NO_API) \
+	DECLARE_SERIALIZER(UAxMidiAssetFactoryNew)
+
+
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAxMidiAssetFactoryNew(UAxMidiAssetFactoryNew&&); \
+	NO_API UAxMidiAssetFactoryNew(const UAxMidiAssetFactoryNew&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAxMidiAssetFactoryNew); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAxMidiAssetFactoryNew); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UAxMidiAssetFactoryNew) \
+	NO_API virtual ~UAxMidiAssetFactoryNew();
+
+
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_13_PROLOG
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_SPARSE_DATA \
+	FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_ACCESSORS \
+	FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_INCLASS_NO_PURE_DECLS \
+	FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_16_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AXMIDICOREEDITOR_API UClass* StaticClass<class UAxMidiAssetFactoryNew>();
+
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_SPARSE_DATA
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_ACCESSORS
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAxMidiAssetFactory(); \
+	friend struct Z_Construct_UClass_UAxMidiAssetFactory_Statics; \
+public: \
+	DECLARE_CLASS(UAxMidiAssetFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AxMidiCoreEditor"), NO_API) \
+	DECLARE_SERIALIZER(UAxMidiAssetFactory)
+
+
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAxMidiAssetFactory(UAxMidiAssetFactory&&); \
+	NO_API UAxMidiAssetFactory(const UAxMidiAssetFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAxMidiAssetFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAxMidiAssetFactory); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UAxMidiAssetFactory) \
+	NO_API virtual ~UAxMidiAssetFactory();
+
+
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_27_PROLOG
+#define FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_SPARSE_DATA \
+	FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_ACCESSORS \
+	FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_INCLASS_NO_PURE_DECLS \
+	FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h_30_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AXMIDICOREEDITOR_API UClass* StaticClass<class UAxMidiAssetFactory>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_ue5_projects_Team13_Game_Plugins_MIDIEngineBroadcasters_Source_Editor_AxMidiCoreEditor_Private_Factories_AxMidiAssetFactory_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,12 @@
+{
+	"BuildId": "27405482",
+	"Modules": 
+	{
+		"AxMidiBroadcasters": "UnrealEditor-AxMidiBroadcasters.dll",
+		"AxMidiCore": "UnrealEditor-AxMidiCore.dll",
+		"AxMidiCoreEditor": "UnrealEditor-AxMidiCoreEditor.dll",
+		"CommonOps": "UnrealEditor-CommonOps.dll",
+		"CommonOpsEditor": "UnrealEditor-CommonOpsEditor.dll",
+		"MidiLib": "UnrealEditor-MidiLib.dll"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MidiLib.cpp.obj": [
+			"MidiLib.cpp.obj",
+			"Binasc.cpp.obj",
+			"MidiEvent.cpp.obj",
+			"MidiEventList.cpp.obj",
+			"MidiFile.cpp.obj",
+			"MidiMessage.cpp.obj",
+			"Options.cpp.obj"
+		]
+	}
+}

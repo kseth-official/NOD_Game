@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AxMidiCore.cpp.obj": [
+			"AxMidiAsset.gen.cpp.obj",
+			"AxMidiChord.gen.cpp.obj",
+			"AxMidiCore.init.gen.cpp.obj",
+			"AxMidiEngineCoreSettings.gen.cpp.obj",
+			"AxMidiEngineCoreSubsystem.gen.cpp.obj",
+			"AxMidiNote.gen.cpp.obj",
+			"AxMidiTrack.gen.cpp.obj",
+			"AxMidiCore.cpp.obj",
+			"AxMidiAsset.cpp.obj",
+			"AxMidiChord.cpp.obj",
+			"AxMidiNote.cpp.obj",
+			"AxMidiTrack.cpp.obj",
+			"AxMidiEngineCoreSettings.cpp.obj",
+			"AxMidiEngineCoreSubsystem.cpp.obj"
+		]
+	}
+}
