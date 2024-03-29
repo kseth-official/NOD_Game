@@ -1,0 +1,12 @@
+{
+	"BuildId": "27405482",
+	"Modules": 
+	{
+		"AxMidiBroadcasters": "UnrealEditor-AxMidiBroadcasters.dylib",
+		"AxMidiCore": "UnrealEditor-AxMidiCore.dylib",
+		"AxMidiCoreEditor": "UnrealEditor-AxMidiCoreEditor.dylib",
+		"CommonOps": "UnrealEditor-CommonOps.dylib",
+		"CommonOpsEditor": "UnrealEditor-CommonOpsEditor.dylib",
+		"MidiLib": "UnrealEditor-MidiLib.dylib"
+	}
+}
