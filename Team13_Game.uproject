@@ -22,6 +22,18 @@
 			"Name": "PaperZD",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c4b43502026047d89296cd7bffd92828"
+		},
+		{
+			"Name": "MidiEngineBroadcasters",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/a3051dc30284411f986bbe6b2a7deb7f",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Android",
+				"Linux",
+				"IOS"
+			]
 		}
 	],
 	"TargetPlatforms": [
