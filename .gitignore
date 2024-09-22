@@ -17,3 +17,8 @@ Content/StarterContent/
 Team13_Game.code-workspace
 .ignore
 Build
+
+# Ignoring MidiEngine Plugin Binaries and Intermediate Files
+Plugins\MIDIEngineBroadcasters\Binaries
+Plugins\MIDIEngineBroadcasters\Intermediate
+Plugins\MidiEngineCore\Intermediate
