@@ -1,8 +1,0 @@
-{
-	"OutputFiles": [
-		"../../../arm64/UnrealGame/Shipping/AxMidiBroadcasters/Module.AxMidiBroadcasters.cpp.o",
-		"../../../arm64/UnrealGame/Shipping/AxMidiBroadcasters/Module.AxMidiBroadcasters.cpp.o",
-		"../../../x64/UnrealGame/Shipping/AxMidiBroadcasters/Module.AxMidiBroadcasters.cpp.o",
-		"../../../x64/UnrealGame/Shipping/AxMidiBroadcasters/Module.AxMidiBroadcasters.cpp.o"
-	]
-}
