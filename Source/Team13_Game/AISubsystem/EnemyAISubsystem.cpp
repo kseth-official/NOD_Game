@@ -1,19 +1,17 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "AISubsystem/EnemyAISubsystem.h"
+#include "EnemyAISubsystem.h"
 
-void UYourCustomSubsystem::Initialize(FSubsystemCollectionBase& Collection)
+void UEnemyAISubsystem::Initialize(FSubsystemCollectionBase& Collection)
 {
     Super::Initialize(Collection);
-    // Initialize AISubsystem
-    AISubsystemInstance = GetWorld()->GetSubsystem<UAISubsystem>();
+    UE_LOG(LogTemp, Warning, TEXT("EnemyAISubsystem initialized"));
 }
 
-void UYourCustomSubsystem::Deinitialize()
+void UEnemyAISubsystem::Deinitialize()
 {
-    // Deinitialize AISubsystem
-    AISubsystemInstance = nullptr;
+    UE_LOG(LogTemp, Warning, TEXT("Deinitializing EnemyAISubsystem"));
     Super::Deinitialize();
 }
 
