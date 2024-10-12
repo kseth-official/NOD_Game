@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	576110586	Test1			\Default Work Unit\Test1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	809517178	chill-lofi-spacey-keys_72bpm_E_major	D:\ue5-projects\NOD_Game\NOD_Game_WwiseProject\.cache\Mac\SFX\chill-lofi-spacey-keys_72bpm_E_major_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\chill-lofi-spacey-keys_72bpm_E_major		2352096
+
