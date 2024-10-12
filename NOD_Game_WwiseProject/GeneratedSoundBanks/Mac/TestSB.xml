@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3331313354" Type="User" GUID="{3AB1D0BC-51B1-435E-B7E4-869FBFDA480A}" Language="SFX" Hash="{935AE5B4-CC3C-5057-077F-636555EE1F81}">
+			<ObjectPath>\SoundBanks\Default Work Unit\TestSB</ObjectPath>
+			<ShortName>TestSB</ShortName>
+			<Path>TestSB.bnk</Path>
+			<Media>
+				<File Id="809517178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>chill-lofi-spacey-keys_72bpm_E_major.wav</ShortName>
+					<CachePath>SFX/chill-lofi-spacey-keys_72bpm_E_major_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="576110586" Name="Test1" ObjectPath="\Events\Default Work Unit\Test1" GUID="{94F2A4F6-DA49-4923-9EF8-AA02AE822B02}" DurationType="OneShot" DurationMin="13.333333" DurationMax="13.333333">
+					<MediaRefs>
+						<MediaRef Id="809517178"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{CFE7E2F8-CBF7-4426-B9B1-B3307971812A}</FileHash>
+</SoundBanksInfo>
