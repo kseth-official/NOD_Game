@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="NOD_Game_WwiseProject" GUID="{CB05F1DF-9575-41F2-AC2F-27EF91324D3A}" Generator="2023.1.7.8574"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{ADCF85E7-9B55-4545-AAF0-A46F00AAB687}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="Mac"/>
+		<Platform Name="Windows" GUID="{9E521D9D-CB6D-47E4-9B3A-D1F067605380}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{9D31103E-9EC6-44AC-BBDC-0A5287940B86}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{895BAF21-7F2E-37AA-E672-4F19BD451EE1}</FileHash>
+</ProjectInfo>

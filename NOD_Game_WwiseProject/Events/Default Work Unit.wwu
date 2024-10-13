@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5B95AE3C-7190-4185-8867-DC3F8EBFFB21}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5B95AE3C-7190-4185-8867-DC3F8EBFFB21}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Test1" ID="{94F2A4F6-DA49-4923-9EF8-AA02AE822B02}">
+					<ChildrenList>
+						<Action Name="" ID="{C2E45A4D-F215-45BF-872D-91E0798C6896}" ShortID="195226091">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="chill-lofi-spacey-keys_72bpm_E_major" ID="{98CDD417-0317-4FF9-A07D-D6FD6240C327}" WorkUnitID="{BE107AE4-150A-47E5-8AF7-1234DE53DF0A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
