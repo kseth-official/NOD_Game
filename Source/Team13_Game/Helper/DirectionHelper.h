@@ -27,5 +27,4 @@ class TEAM13_GAME_API UDirectionHelper : public UBlueprintFunctionLibrary
 
 	UFUNCTION(BlueprintCallable, Category = "Helper")
 	static bool IsFacingToFrontAndSide(float ax, float ay);
-
 };
