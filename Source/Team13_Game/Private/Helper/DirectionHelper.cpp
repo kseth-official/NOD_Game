@@ -1,8 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "Team13_Game/Helper/DirectionHelper.h"
-#include "DirectionHelper.h"
+#include "Helper/DirectionHelper.h"
 
 bool UDirectionHelper::IsFacingToSide(float ax, float ay)
 {
