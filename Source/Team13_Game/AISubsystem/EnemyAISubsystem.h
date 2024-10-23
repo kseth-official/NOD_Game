@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Subsystems/Subsystem.h"
+#include "Subsystems/GameInstanceSubsystem.h"
 #include "EnemyAISubsystem.generated.h"
 
 /**
  * Enemy AI Subsystem for enemy AI-related functions.
  */
 UCLASS(BlueprintType)
-class TEAM13_GAME_API UEnemyAISubsystem : public USubsystem
+class TEAM13_GAME_API UEnemyAISubsystem : public UGameInstanceSubsystem
 {
 	GENERATED_BODY()
 	
