@@ -22,3 +22,8 @@ Build
 Plugins\MIDIEngineBroadcasters\Binaries
 Plugins\MIDIEngineBroadcasters\Intermediate
 Plugins\MidiEngineCore\Intermediate
+Plugins\Wwise\Binaries
+Plugins\Wwise\Intermediate
+Plugins\WwiseNiagara\Binaries
+Plugins\WwiseNiagara\Intermediate
+Plugins\Wwise\Source\WwiseSoundEngine\Public\Generated
