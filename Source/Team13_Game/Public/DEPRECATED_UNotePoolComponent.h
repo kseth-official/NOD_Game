@@ -5,19 +5,19 @@
 #include "CoreMinimal.h"
 #include "RhythmNote.h"
 #include "Components/ActorComponent.h"
-#include "NotePoolComponent.generated.h"
+#include "DEPRECATED_UNotePoolComponent.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class TEAM13_GAME_API UNotePoolComponent : public UActorComponent
+UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent), Deprecated )
+class TEAM13_GAME_API UDEPRECATED_UNotePoolComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
 public:	
 	// Sets default values for this component's properties
-	UNotePoolComponent();
+	UDEPRECATED_UNotePoolComponent();
 
-	virtual ~UNotePoolComponent() override;
+	virtual ~UDEPRECATED_UNotePoolComponent() override;
 
 	UFUNCTION(BlueprintCallable, Category = "Debug")
 	void DebugWithMessage(const FString& Message);
@@ -37,6 +37,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Rhythm Note Pool")
 	void InitializePool(const int32& InitialSize);
 
+	UFUNCTION(BlueprintCallable, Category = "Rhythm Note Pool")
+	void DeInitializePool();
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -51,23 +54,11 @@ public:
 
 private:
 
-	// Free list implementation of an Object Pool
-	struct FPoolNode
-	{
-		TObjectPtr<ARhythmNote> Note;
-		FPoolNode* Next;
-	};
-
-	FPoolNode* PoolHead;
+	UPROPERTY()
+	TSet<TObjectPtr<ARhythmNote>> AvailableNotesInPool;
 
 	UPROPERTY()
-	TArray<ARhythmNote*> AllNotes;
-
-	// Insert at head of linked list
-	void AddToPool(TObjectPtr<ARhythmNote> Note);
-
-	// Remove head of linked list and advance head ptr
-	ARhythmNote* RemoveFromPool();
+	TSet<TObjectPtr<ARhythmNote>> UnavailableNotesInPool;
 
 	const int32 DEFAULT_POOL_SIZE = 20;
 
