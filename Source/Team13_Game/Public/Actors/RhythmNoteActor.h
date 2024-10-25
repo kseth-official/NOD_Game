@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "RhythmNote.generated.h"
+#include "RhythmNoteActor.generated.h"
 
 UCLASS(Blueprintable)
-class TEAM13_GAME_API ARhythmNote : public AActor
+class TEAM13_GAME_API ARhythmNoteActor : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	ARhythmNote();
+	ARhythmNoteActor();
 
 protected:
 	// Called when the game starts or when spawned
