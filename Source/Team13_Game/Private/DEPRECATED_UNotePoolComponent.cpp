@@ -74,7 +74,7 @@ void UDEPRECATED_UNotePoolComponent::InitializePool(const int32& InitialSize)
 	for (int32 i = 0; i < PoolSize; i++)
 	{
 		// Initializes all the actors at the initial location of the parent.
-		TObjectPtr<ARhythmNote> NewNote = World->SpawnActor<ARhythmNote>(ARhythmNote::StaticClass(), Owner->GetActorTransform());
+		TObjectPtr<ARhythmNoteActor> NewNote = World->SpawnActor<ARhythmNoteActor>(ARhythmNoteActor::StaticClass(), Owner->GetActorTransform());
 
 		if (NewNote)
 		{
@@ -107,14 +107,14 @@ void UDEPRECATED_UNotePoolComponent::DeInitializePool()
 	UnavailableNotesInPool.Empty();
 }
 
-ARhythmNote* UDEPRECATED_UNotePoolComponent::AcquireNote(const FTransform& SpawnTransform)
+ARhythmNoteActor* UDEPRECATED_UNotePoolComponent::AcquireNote(const FTransform& SpawnTransform)
 {
 	DebugWithMessage("Acquiring New Note At" + SpawnTransform.GetLocation().ToCompactString());
 
 	if (!AvailableNotesInPool.IsEmpty())
 	{
 		auto It = AvailableNotesInPool.CreateIterator();
-		const TObjectPtr<ARhythmNote> RandomNote = *It;
+		const TObjectPtr<ARhythmNoteActor> RandomNote = *It;
 
 		// TODO: Configure actor to have a specific velocity once at spawn transform wherever this is called (likely in RhythmSubsystem).
 		if (RandomNote)
@@ -135,7 +135,7 @@ ARhythmNote* UDEPRECATED_UNotePoolComponent::AcquireNote(const FTransform& Spawn
 	return nullptr;
 }
 
-void UDEPRECATED_UNotePoolComponent::ReleaseNote(ARhythmNote* Note)
+void UDEPRECATED_UNotePoolComponent::ReleaseNote(ARhythmNoteActor* Note)
 {
 	DebugWithMessage("Releasing Note");
 

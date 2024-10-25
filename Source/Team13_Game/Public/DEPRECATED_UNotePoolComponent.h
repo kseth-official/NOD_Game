@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "RhythmNote.h"
+#include "Actors/RhythmNoteActor.h"
 #include "Components/ActorComponent.h"
 #include "DEPRECATED_UNotePoolComponent.generated.h"
 
@@ -29,10 +29,10 @@ public:
 	void SetPoolSize(const int32& Size);
 
 	UFUNCTION(BlueprintCallable, Category = "Notes")
-	ARhythmNote* AcquireNote(const FTransform& SpawnTransform);
+	ARhythmNoteActor* AcquireNote(const FTransform& SpawnTransform);
 
 	UFUNCTION(BlueprintCallable, Category = "Notes")
-	void ReleaseNote(ARhythmNote* Note);
+	void ReleaseNote(ARhythmNoteActor* Note);
 
 	UFUNCTION(BlueprintCallable, Category = "Rhythm Note Pool")
 	void InitializePool(const int32& InitialSize);
@@ -55,10 +55,10 @@ public:
 private:
 
 	UPROPERTY()
-	TSet<TObjectPtr<ARhythmNote>> AvailableNotesInPool;
+	TSet<TObjectPtr<ARhythmNoteActor>> AvailableNotesInPool;
 
 	UPROPERTY()
-	TSet<TObjectPtr<ARhythmNote>> UnavailableNotesInPool;
+	TSet<TObjectPtr<ARhythmNoteActor>> UnavailableNotesInPool;
 
 	const int32 DEFAULT_POOL_SIZE = 20;
 
