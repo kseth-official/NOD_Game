@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "PaperZDCharacters/BaseGameplayTagPaperZDCharacter.h"
+#include "Actors/Characters/BaseGameplayTagPaperZDCharacter.h"
 
 // Sets default values
 ABaseGameplayTagPaperZDCharacter::ABaseGameplayTagPaperZDCharacter()
