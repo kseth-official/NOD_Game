@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F4725346-D9A5-41AB-ADA7-29D6D8B93A57}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Music" ID="{F4725346-D9A5-41AB-ADA7-29D6D8B93A57}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_BGMSwitch" ID="{A6BDE8A7-DA64-4586-AF7C-FB9960D046C1}">
+					<ChildrenList>
+						<Action Name="" ID="{1D90019A-6FFA-41F3-8897-0E0D80080FCE}" ShortID="932908513">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGMSwitch" ID="{740E09BC-1BBE-4B9A-86D8-879822ABFA4A}" WorkUnitID="{6B869D19-6CD9-4C9A-B95D-0BB985E9B09A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
