@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DD802523-C032-4151-A9E1-5912A500E8F9}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Main" ID="{DD802523-C032-4151-A9E1-5912A500E8F9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{01AE373F-539C-4300-9309-F1CD80D8D985}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{F4725346-D9A5-41AB-ADA7-29D6D8B93A57}" WorkUnitID="{F4725346-D9A5-41AB-ADA7-29D6D8B93A57}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{F76E64AF-6592-4696-AB27-D1CB3ECD8616}" WorkUnitID="{F76E64AF-6592-4696-AB27-D1CB3ECD8616}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Violin" ID="{48248952-81B3-4B1C-9B91-9E09E1B6AF63}" WorkUnitID="{48248952-81B3-4B1C-9B91-9E09E1B6AF63}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Skill" ID="{B43FAB3A-24AC-4C38-83E1-27A0FFD8461D}" WorkUnitID="{B43FAB3A-24AC-4C38-83E1-27A0FFD8461D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Crossbow" ID="{AF4DA096-9B28-4C74-BC81-A6CDC3D2EB22}" WorkUnitID="{AF4DA096-9B28-4C74-BC81-A6CDC3D2EB22}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sword" ID="{55FCED3C-78B4-4D5E-8477-E12902C49853}" WorkUnitID="{55FCED3C-78B4-4D5E-8477-E12902C49853}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

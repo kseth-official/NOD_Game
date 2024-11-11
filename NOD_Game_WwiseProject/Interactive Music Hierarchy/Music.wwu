@@ -6,7 +6,7 @@
 				<MusicSwitchContainer Name="BGMSwitch" ID="{740E09BC-1BBE-4B9A-86D8-879822ABFA4A}" ShortID="814578470">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+							<ObjectRef Name="All" ID="{47BF4EC0-54F5-464C-9B5D-A4B75CDC8255}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>

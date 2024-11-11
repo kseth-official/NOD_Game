@@ -1,0 +1,615 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{01AE373F-539C-4300-9309-F1CD80D8D985}",
+    "Language": "SFX",
+    "Hash": "{FCFDB00A-B2D9-BDDB-5D36-69F0AB972A25}",
+    "ObjectPath": "\\SoundBanks\\Main\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "25100942",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Crossbow\\SFX_Crossbow_Spawn.wav",
+      "CachePath": "SFX/Crossbow/SFX_Crossbow_Spawn_818F3B66.wem"
+     },
+     {
+      "Id": "181508161",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM\\BGM_Main_Menu.wav",
+      "CachePath": "SFX/BGM/BGM_Main_Menu_56CEF360.wem"
+     },
+     {
+      "Id": "195368164",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Violin\\SFX_Violin_DamageTaken.wav",
+      "CachePath": "SFX/Violin/SFX_Violin_DamageTaken_818F3B66.wem"
+     },
+     {
+      "Id": "219851386",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Crossbow\\SFX_Crossbow_DamageTaken.wav",
+      "CachePath": "SFX/Crossbow/SFX_Crossbow_DamageTaken_818F3B66.wem"
+     },
+     {
+      "Id": "231666472",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skill\\JIN_Skill_SoundWave.wav",
+      "CachePath": "SFX/Skill/JIN_Skill_SoundWave_818F3B66.wem"
+     },
+     {
+      "Id": "279612480",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Violin\\SFX_Violin_BasicAttack_02.wav",
+      "CachePath": "SFX/Violin/SFX_Violin_BasicAttack_02_818F3B66.wem"
+     },
+     {
+      "Id": "319916350",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\SFX_MainMenuButton_Hover.wav",
+      "CachePath": "SFX/UI/SFX_MainMenuButton_Hover_818F3B66.wem"
+     },
+     {
+      "Id": "358574614",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skill\\SFX_Skill_SpeedBoost_Success.wav",
+      "CachePath": "SFX/Skill/SFX_Skill_SpeedBoost_Success_818F3B66.wem"
+     },
+     {
+      "Id": "390568565",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM\\BGM_Tutorial_Boss.wav",
+      "CachePath": "SFX/BGM/BGM_Tutorial_Boss_56CEF360.wem"
+     },
+     {
+      "Id": "457333191",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skill\\SFX_Skill_DefenseShield_Failure.wav",
+      "CachePath": "SFX/Skill/SFX_Skill_DefenseShield_Failure_818F3B66.wem"
+     },
+     {
+      "Id": "471003945",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM\\BGM_Tutorial.wav",
+      "CachePath": "SFX/BGM/BGM_Tutorial_56CEF360.wem"
+     },
+     {
+      "Id": "533401347",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skill\\JIN_Skill_DefenseShield.wav",
+      "CachePath": "SFX/Skill/JIN_Skill_DefenseShield_818F3B66.wem"
+     },
+     {
+      "Id": "584361667",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI\\SFX_MainMenuButton_Pressed.wav",
+      "CachePath": "SFX/UI/SFX_MainMenuButton_Pressed_818F3B66.wem"
+     },
+     {
+      "Id": "636521974",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skill\\SFX_Skill_SoundWave_Failure.wav",
+      "CachePath": "SFX/Skill/SFX_Skill_SoundWave_Failure_818F3B66.wem"
+     },
+     {
+      "Id": "663385401",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skill\\JIN_Skill_SpeedBoost.wav",
+      "CachePath": "SFX/Skill/JIN_Skill_SpeedBoost_818F3B66.wem"
+     },
+     {
+      "Id": "666415962",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Violin\\SFX_Violin_BasicAttack_01.wav",
+      "CachePath": "SFX/Violin/SFX_Violin_BasicAttack_01_818F3B66.wem"
+     },
+     {
+      "Id": "685433719",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Crossbow\\SFX_Crossbow_ArrowFlight.wav",
+      "CachePath": "SFX/Crossbow/SFX_Crossbow_ArrowFlight_818F3B66.wem"
+     },
+     {
+      "Id": "792102756",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Crossbow\\SFX_Crossbow_Death.wav",
+      "CachePath": "SFX/Crossbow/SFX_Crossbow_Death_818F3B66.wem"
+     },
+     {
+      "Id": "805300462",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword\\SFX_Sword_Spawn.wav",
+      "CachePath": "SFX/Sword/SFX_Sword_Spawn_818F3B66.wem"
+     },
+     {
+      "Id": "805876197",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skill\\SFX_Skill_SoundWave_Success.wav",
+      "CachePath": "SFX/Skill/SFX_Skill_SoundWave_Success_818F3B66.wem"
+     },
+     {
+      "Id": "854794988",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Violin\\SFX_Violin_Death.wav",
+      "CachePath": "SFX/Violin/SFX_Violin_Death_818F3B66.wem"
+     },
+     {
+      "Id": "857039541",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword\\SFX_Sword_DamageTaken.wav",
+      "CachePath": "SFX/Sword/SFX_Sword_DamageTaken_818F3B66.wem"
+     },
+     {
+      "Id": "898971673",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skill\\SFX_Skill_DefenseShield_Success.wav",
+      "CachePath": "SFX/Skill/SFX_Skill_DefenseShield_Success_818F3B66.wem"
+     },
+     {
+      "Id": "959171433",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sword\\SFX_Sword_Death.wav",
+      "CachePath": "SFX/Sword/SFX_Sword_Death_818F3B66.wem"
+     },
+     {
+      "Id": "1054028180",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Skill\\SFX_Skill_SpeedBoost_Failure.wav",
+      "CachePath": "SFX/Skill/SFX_Skill_SpeedBoost_Failure_818F3B66.wem"
+     },
+     {
+      "Id": "1063407638",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Violin\\SFX_Violin_BasicAttack_03.wav",
+      "CachePath": "SFX/Violin/SFX_Violin_BasicAttack_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4120079856",
+      "Name": "Play_BGMSwitch",
+      "ObjectPath": "\\Events\\Music\\Play_BGMSwitch",
+      "GUID": "{A6BDE8A7-DA64-4586-AF7C-FB9960D046C1}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2064552269",
+         "Id": "3604647259",
+         "GUID": "{58BBBD3C-3A65-40D9-BADA-386F3F47F234}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "181508161"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2064552269",
+         "Id": "3762955427",
+         "GUID": "{394F9CBE-784E-4689-8626-EB9DD8FBF64B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "471003945"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2064552269",
+         "Id": "297048136",
+         "GUID": "{A94AFFB7-E9A5-495F-A698-B031F9698EB3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "390568565"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1639076598",
+      "Name": "Play_Crossbow_ArrowFlight",
+      "ObjectPath": "\\Events\\Crossbow\\Play_Crossbow_ArrowFlight",
+      "GUID": "{371A7AF3-ADB5-4E79-869D-28548285855A}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.6363647",
+      "DurationMax": "3.6363647",
+      "MediaRefs": [
+       {
+        "Id": "685433719"
+       }
+      ]
+     },
+     {
+      "Id": "2088508891",
+      "Name": "Play_Crossbow_DamageTaken",
+      "ObjectPath": "\\Events\\Crossbow\\Play_Crossbow_DamageTaken",
+      "GUID": "{E441DAFE-13AF-4B64-B7DD-0620C80C9A53}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.6363647",
+      "DurationMax": "3.6363647",
+      "MediaRefs": [
+       {
+        "Id": "219851386"
+       }
+      ]
+     },
+     {
+      "Id": "3122342337",
+      "Name": "Play_Crossbow_Death",
+      "ObjectPath": "\\Events\\Crossbow\\Play_Crossbow_Death",
+      "GUID": "{5B1A3E8E-97A6-4DC6-8EC6-4DE917F1FF3B}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.2727294",
+      "DurationMax": "7.2727294",
+      "MediaRefs": [
+       {
+        "Id": "792102756"
+       }
+      ]
+     },
+     {
+      "Id": "1948364110",
+      "Name": "Play_Crossbow_Spawn",
+      "ObjectPath": "\\Events\\Crossbow\\Play_Crossbow_Spawn",
+      "GUID": "{74DD516D-8A95-49DA-AF6C-7903F2C67694}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.181823",
+      "DurationMax": "8.181823",
+      "MediaRefs": [
+       {
+        "Id": "25100942"
+       }
+      ]
+     },
+     {
+      "Id": "2844296131",
+      "Name": "Play_MainMenuButton_Hover",
+      "ObjectPath": "\\Events\\UI\\Play_MainMenuButton_Hover",
+      "GUID": "{886A3F4F-BF61-41E5-8F46-1EC06915B488}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.3421087",
+      "DurationMax": "4.3421087",
+      "MediaRefs": [
+       {
+        "Id": "319916350"
+       }
+      ]
+     },
+     {
+      "Id": "2105459707",
+      "Name": "Play_MainMenuButton_Pressed",
+      "ObjectPath": "\\Events\\UI\\Play_MainMenuButton_Pressed",
+      "GUID": "{6E0A92E6-2FD0-4C8E-A406-E6D4607E3CEE}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.210544",
+      "DurationMax": "4.210544",
+      "MediaRefs": [
+       {
+        "Id": "584361667"
+       }
+      ]
+     },
+     {
+      "Id": "2347269972",
+      "Name": "Play_Skill_DefenseShield_Failure",
+      "ObjectPath": "\\Events\\Skill\\Play_Skill_DefenseShield_Failure",
+      "GUID": "{B77B88AF-0FBC-4B8E-AA36-6A7CAA0B85EF}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.428571",
+      "DurationMax": "6.428571",
+      "MediaRefs": [
+       {
+        "Id": "457333191"
+       }
+      ]
+     },
+     {
+      "Id": "1261317629",
+      "Name": "Play_Skill_DefenseShield_Jingle",
+      "ObjectPath": "\\Events\\Skill\\Play_Skill_DefenseShield_Jingle",
+      "GUID": "{4C1EC398-C574-44B4-A9DC-4F2B6C2BC8B6}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.454558",
+      "DurationMax": "5.454558",
+      "MediaRefs": [
+       {
+        "Id": "533401347"
+       }
+      ]
+     },
+     {
+      "Id": "669442651",
+      "Name": "Play_Skill_DefenseShield_Success",
+      "ObjectPath": "\\Events\\Skill\\Play_Skill_DefenseShield_Success",
+      "GUID": "{AD0F7929-1A83-4E19-BFFB-120F11E0CCD9}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.5714285",
+      "DurationMax": "2.5714285",
+      "MediaRefs": [
+       {
+        "Id": "898971673"
+       }
+      ]
+     },
+     {
+      "Id": "608416425",
+      "Name": "Play_Skill_SoundWave_Failure",
+      "ObjectPath": "\\Events\\Skill\\Play_Skill_SoundWave_Failure",
+      "GUID": "{065A926C-EA1C-4768-B417-FB0A4550CB01}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.7857144",
+      "DurationMax": "2.7857144",
+      "MediaRefs": [
+       {
+        "Id": "636521974"
+       }
+      ]
+     },
+     {
+      "Id": "344848046",
+      "Name": "Play_Skill_SoundWave_Jingle",
+      "ObjectPath": "\\Events\\Skill\\Play_Skill_SoundWave_Jingle",
+      "GUID": "{71831D2E-E7AC-44B3-85FA-348EEFFEA013}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.454558",
+      "DurationMax": "5.454558",
+      "MediaRefs": [
+       {
+        "Id": "231666472"
+       }
+      ]
+     },
+     {
+      "Id": "3360748338",
+      "Name": "Play_Skill_SoundWave_Success",
+      "ObjectPath": "\\Events\\Skill\\Play_Skill_SoundWave_Success",
+      "GUID": "{1857611E-52DD-416F-B47E-325F9DE90899}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.142857",
+      "DurationMax": "2.142857",
+      "MediaRefs": [
+       {
+        "Id": "805876197"
+       }
+      ]
+     },
+     {
+      "Id": "3704568641",
+      "Name": "Play_Skill_SpeedBoost_Failure",
+      "ObjectPath": "\\Events\\Skill\\Play_Skill_SpeedBoost_Failure",
+      "GUID": "{DA89D37D-E484-4635-96EA-B350DCD8C5EE}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.378753",
+      "DurationMax": "2.378753",
+      "MediaRefs": [
+       {
+        "Id": "1054028180"
+       }
+      ]
+     },
+     {
+      "Id": "2476371958",
+      "Name": "Play_Skill_SpeedBoost_Jingle",
+      "ObjectPath": "\\Events\\Skill\\Play_Skill_SpeedBoost_Jingle",
+      "GUID": "{F534DE7C-2285-422B-9BAB-F6FAC3571EF3}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.454558",
+      "DurationMax": "5.454558",
+      "MediaRefs": [
+       {
+        "Id": "663385401"
+       }
+      ]
+     },
+     {
+      "Id": "1078248586",
+      "Name": "Play_Skill_SpeedBoost_Success",
+      "ObjectPath": "\\Events\\Skill\\Play_Skill_SpeedBoost_Success",
+      "GUID": "{C1DDE3B6-61C8-4B52-B09E-EC7B2ECAB84F}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.428571",
+      "DurationMax": "6.428571",
+      "MediaRefs": [
+       {
+        "Id": "358574614"
+       }
+      ]
+     },
+     {
+      "Id": "2319534280",
+      "Name": "Play_Sword_DamageTaken",
+      "ObjectPath": "\\Events\\Sword\\Play_Sword_DamageTaken",
+      "GUID": "{D113A297-220F-418B-8D4E-7A3841CD4DD5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7299093",
+      "DurationMax": "0.7299093",
+      "MediaRefs": [
+       {
+        "Id": "857039541"
+       }
+      ]
+     },
+     {
+      "Id": "26119490",
+      "Name": "Play_Sword_Death",
+      "ObjectPath": "\\Events\\Sword\\Play_Sword_Death",
+      "GUID": "{ECAA7FF9-8B49-43A5-86C7-A3738E1F246B}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5152608",
+      "DurationMax": "1.5152608",
+      "MediaRefs": [
+       {
+        "Id": "959171433"
+       }
+      ]
+     },
+     {
+      "Id": "2013461081",
+      "Name": "Play_Sword_Spawn",
+      "ObjectPath": "\\Events\\Sword\\Play_Sword_Spawn",
+      "GUID": "{C3A846CD-014A-47A7-BA8D-6111B7C85A85}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "805300462"
+       }
+      ]
+     },
+     {
+      "Id": "614997430",
+      "Name": "Play_Violin_BasicAttack",
+      "ObjectPath": "\\Events\\Violin\\Play_Violin_BasicAttack",
+      "GUID": "{274D91A0-5C9B-41AD-B7CA-4828A56E84B2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "279612480"
+       },
+       {
+        "Id": "666415962"
+       },
+       {
+        "Id": "1063407638"
+       }
+      ]
+     },
+     {
+      "Id": "328017724",
+      "Name": "Play_Violin_DamageTaken",
+      "ObjectPath": "\\Events\\Violin\\Play_Violin_DamageTaken",
+      "GUID": "{80C2A5AE-5724-46ED-9295-E28882D8F79E}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.5933788",
+      "DurationMax": "2.5933788",
+      "MediaRefs": [
+       {
+        "Id": "195368164"
+       }
+      ]
+     },
+     {
+      "Id": "1745058166",
+      "Name": "Play_Violin_Death",
+      "ObjectPath": "\\Events\\Violin\\Play_Violin_Death",
+      "GUID": "{26CAAEA8-8F41-4BCB-B075-D51C48C78349}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.75",
+      "DurationMax": "9.75",
+      "MediaRefs": [
+       {
+        "Id": "854794988"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2064552269",
+      "Name": "AreaState",
+      "ObjectPath": "\\States\\Default Work Unit\\AreaState",
+      "GUID": "{3E39C3F8-2E37-428D-BB92-7ED085166989}",
+      "States": [
+       {
+        "Id": "297048136",
+        "Name": "TutorialBoss",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaState\\TutorialBoss",
+        "GUID": "{A94AFFB7-E9A5-495F-A698-B031F9698EB3}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaState\\None",
+        "GUID": "{D23E6C62-63E3-4993-B50E-CC69AF7F15C7}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaState\\MainMenu",
+        "GUID": "{58BBBD3C-3A65-40D9-BADA-386F3F47F234}"
+       },
+       {
+        "Id": "3762955427",
+        "Name": "Tutorial",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaState\\Tutorial",
+        "GUID": "{394F9CBE-784E-4689-8626-EB9DD8FBF64B}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{EE638718-1BEB-2C57-DBA6-26BE417034E6}"
+ }
+}
