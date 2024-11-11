@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EC2DBE99-54DE-48AA-BC00-17278042B89B}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Sword" ID="{EC2DBE99-54DE-48AA-BC00-17278042B89B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SFX_Sword_DamageTaken" ID="{44FE9A0F-7DDE-4758-A3A8-3C7D6E003AF7}" ShortID="751197623">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Sword_DamageTaken" ID="{3EB3F4FB-856B-455C-AC5B-84124D886307}">
+							<Language>SFX</Language>
+							<AudioFile>Sword\SFX_Sword_DamageTaken.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="857039541"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Sword_DamageTaken" ID="{3EB3F4FB-856B-455C-AC5B-84124D886307}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Sword_Death" ID="{CFA6F8B8-4991-4ACB-98B5-E28013C3D4B1}" ShortID="671204360">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Sword_Death" ID="{9B4E5B90-B59C-435D-B3D9-1BE7E48338E7}">
+							<Language>SFX</Language>
+							<AudioFile>Sword\SFX_Sword_Death.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="959171433"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Sword_Death" ID="{9B4E5B90-B59C-435D-B3D9-1BE7E48338E7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Sword_Spawn" ID="{480C5325-CE39-468E-9829-D946FA698453}" ShortID="161232797">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Sword_Spawn" ID="{5D809046-6F8C-42E5-9647-83AA8864912D}">
+							<Language>SFX</Language>
+							<AudioFile>Sword\SFX_Sword_Spawn.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="805300462"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Sword_Spawn" ID="{5D809046-6F8C-42E5-9647-83AA8864912D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
