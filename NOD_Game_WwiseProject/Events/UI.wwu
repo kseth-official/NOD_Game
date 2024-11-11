@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F76E64AF-6592-4696-AB27-D1CB3ECD8616}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="UI" ID="{F76E64AF-6592-4696-AB27-D1CB3ECD8616}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_MainMenuButton_Hover" ID="{886A3F4F-BF61-41E5-8F46-1EC06915B488}">
+					<ChildrenList>
+						<Action Name="" ID="{7712B9ED-7E30-4FEB-A0C9-93A36BFB3131}" ShortID="49451077">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MainMenuButton_Hover" ID="{6B7228F0-11BC-43E1-AAA4-9357D48CC5BA}" WorkUnitID="{0F46C1F2-3B20-4B25-80B1-EE5FAEE3793F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MainMenuButton_Pressed" ID="{6E0A92E6-2FD0-4C8E-A406-E6D4607E3CEE}">
+					<ChildrenList>
+						<Action Name="" ID="{FEEA0FC9-EAD5-4F63-9E60-07138603B65A}" ShortID="713268373">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MainMenuButton_Pressed" ID="{9F0E022A-97AC-4222-8EC0-8649440D57CC}" WorkUnitID="{0F46C1F2-3B20-4B25-80B1-EE5FAEE3793F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
