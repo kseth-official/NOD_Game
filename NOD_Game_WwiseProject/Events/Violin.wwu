@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{48248952-81B3-4B1C-9B91-9E09E1B6AF63}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Violin" ID="{48248952-81B3-4B1C-9B91-9E09E1B6AF63}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Violin_BasicAttack" ID="{A06BD384-0110-44C3-85FB-A4362A3EC031}">
+					<ChildrenList>
+						<Action Name="" ID="{C8A7D07E-A49E-40B4-9437-3199522663A9}" ShortID="584276918">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Violin_BasicAttack" ID="{0E290752-BE91-4FEF-86DD-F6DEE7EEA429}" WorkUnitID="{99E7CA59-1C29-4951-88FD-B44ADE6F61EF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Violin_Death" ID="{3E08D07A-7056-412C-867A-2AE07E63CA8A}">
+					<ChildrenList>
+						<Action Name="" ID="{C6C63DBC-D7E7-4F4E-BB1F-93D6799E40AE}" ShortID="524885852">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Violin_Death" ID="{D924E0A6-9CC7-485B-A342-11B9ABD97C84}" WorkUnitID="{99E7CA59-1C29-4951-88FD-B44ADE6F61EF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Violin_DamageTaken" ID="{E677E198-A18C-4079-B672-29CE71313F89}">
+					<ChildrenList>
+						<Action Name="" ID="{1B04D9A9-5C04-454B-96E7-D90FBDC296A4}" ShortID="854181264">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Violin_DamageTaken" ID="{A54D7E24-2CEF-4B14-B96A-DDC4C7CFBDA0}" WorkUnitID="{99E7CA59-1C29-4951-88FD-B44ADE6F61EF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
