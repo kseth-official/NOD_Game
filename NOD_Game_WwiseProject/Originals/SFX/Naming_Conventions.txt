@@ -1,4 +1,4 @@
-Background Music (BGM): Lengthy tracks that generally loop endlessly.
+Background Music (BGM): Lengthy tracks that may loop endlessly.
 Format: BGM_Title_With_All_Words_Separated_By_Underscores_(VersionNo)
 Examples:
 - BGM_Main_Menu
@@ -6,7 +6,7 @@ Examples:
 - BGM_Purple_Rain_v2
 
 
-Sound Effects (SFX): Audio feedback that highlight player's interactions with the game.
+Sound Effects (SFX): Very short clips that confirm player's interactions with the game.
 Format: SFX_Entity_Event_(State)_(VariationNo)_(VersionNo)
 Examples:
 - SFX_Violin_DamageTaken
@@ -18,9 +18,9 @@ Examples:
 - SFX_Violin_Footsteps_Grass_03_v2
 
 
-Jingles (JIN): Short tracks that punctuate significant game events.
-Format: JIN_(Entity)_Event_(VersionNo)
+Music (MUS): Short tracks that highlight significant game events. Generally non-looping.
+Format: MUS_(Entity)_Event_(VersionNo)
 Examples
-- JIN_LevelUp
-- JIN_GameSaved
-- JIN_Skill_SoundWave_v2
+- MUS_LevelUp
+- MUS_GameSaved
+- MUS_Rhythm_SoundWave_v2

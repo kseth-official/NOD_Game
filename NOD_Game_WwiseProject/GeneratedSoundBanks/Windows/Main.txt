@@ -1,25 +1,25 @@
 Event	ID	Name			Wwise Object Path	Notes
 	26119490	Play_Sword_Death			\Sword\Play_Sword_Death	
 	328017724	Play_Violin_DamageTaken			\Violin\Play_Violin_DamageTaken	
-	344848046	Play_Skill_SoundWave_Jingle			\Skill\Play_Skill_SoundWave_Jingle	
-	608416425	Play_Skill_SoundWave_Failure			\Skill\Play_Skill_SoundWave_Failure	
+	613775276	Play_Rhythm_DefenseShield_Track			\Rhythm\Tracks\Play_Rhythm_DefenseShield_Track	
 	614997430	Play_Violin_BasicAttack			\Violin\Play_Violin_BasicAttack	
-	669442651	Play_Skill_DefenseShield_Success			\Skill\Play_Skill_DefenseShield_Success	
-	1078248586	Play_Skill_SpeedBoost_Success			\Skill\Play_Skill_SpeedBoost_Success	
-	1261317629	Play_Skill_DefenseShield_Jingle			\Skill\Play_Skill_DefenseShield_Jingle	
+	640616963	Play_Rhythm_SpeedBoost_Track			\Rhythm\Tracks\Play_Rhythm_SpeedBoost_Track	
+	903162942	Play_Rhythm_SoundWave_Failure			\Rhythm\Play_Rhythm_SoundWave_Failure	
+	934338728	Play_Rhythm_SpeedBoost_Failure			\Rhythm\Play_Rhythm_SpeedBoost_Failure	
+	1485927955	Play_Rhythm_DefenseShield_Failure			\Rhythm\Play_Rhythm_DefenseShield_Failure	
 	1639076598	Play_Crossbow_ArrowFlight			\Crossbow\Play_Crossbow_ArrowFlight	
 	1745058166	Play_Violin_Death			\Violin\Play_Violin_Death	
 	1948364110	Play_Crossbow_Spawn			\Crossbow\Play_Crossbow_Spawn	
 	2013461081	Play_Sword_Spawn			\Sword\Play_Sword_Spawn	
 	2088508891	Play_Crossbow_DamageTaken			\Crossbow\Play_Crossbow_DamageTaken	
 	2105459707	Play_MainMenuButton_Pressed			\UI\Play_MainMenuButton_Pressed	
+	2215600837	Play_Rhythm_SoundWave_Track			\Rhythm\Tracks\Play_Rhythm_SoundWave_Track	
 	2319534280	Play_Sword_DamageTaken			\Sword\Play_Sword_DamageTaken	
-	2347269972	Play_Skill_DefenseShield_Failure			\Skill\Play_Skill_DefenseShield_Failure	
-	2476371958	Play_Skill_SpeedBoost_Jingle			\Skill\Play_Skill_SpeedBoost_Jingle	
+	2570083928	Play_Rhythm_DefenseShield_Success			\Rhythm\Play_Rhythm_DefenseShield_Success	
 	2844296131	Play_MainMenuButton_Hover			\UI\Play_MainMenuButton_Hover	
 	3122342337	Play_Crossbow_Death			\Crossbow\Play_Crossbow_Death	
-	3360748338	Play_Skill_SoundWave_Success			\Skill\Play_Skill_SoundWave_Success	
-	3704568641	Play_Skill_SpeedBoost_Failure			\Skill\Play_Skill_SpeedBoost_Failure	
+	3232719369	Play_Rhythm_SoundWave_Success			\Rhythm\Play_Rhythm_SoundWave_Success	
+	3804782223	Play_Rhythm_SpeedBoost_Success			\Rhythm\Play_Rhythm_SpeedBoost_Success	
 	4120079856	Play_BGMSwitch			\Music\Play_BGMSwitch	
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -33,29 +33,29 @@ State	ID	Name	State Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	25100942	SFX_Crossbow_Spawn	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Crossbow\SFX_Crossbow_Spawn_818F3B66.wem		\Actor-Mixer Hierarchy\Crossbow\SFX_Crossbow_Spawn		1571004
+	144836579	SFX_Rhythm_SoundWave_Failure	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\SFX_Rhythm_SoundWave_Failure_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\SFX_Rhythm_SoundWave_Failure		491496
+	165497590	SFX_Rhythm_SpeedBoost_Success	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\SFX_Rhythm_SpeedBoost_Success_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\SFX_Rhythm_SpeedBoost_Success		1134096
+	174881815	MUS_Rhythm_SpeedBoost	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\MUS_Rhythm_SpeedBoost_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\MUS_Rhythm_SpeedBoost		962280
 	181508161	BGM_Main_Menu	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\BGM\BGM_Main_Menu_56CEF360.wem		\Interactive Music Hierarchy\Music\BGMSwitch\BGM_Main_Menu\BGM_Main_Menu		961361
+	182540190	SFX_Rhythm_DefenseShield_Success	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\SFX_Rhythm_DefenseShield_Success_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\SFX_Rhythm_DefenseShield_Success		453696
 	195368164	SFX_Violin_DamageTaken	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Violin\SFX_Violin_DamageTaken_818F3B66.wem		\Actor-Mixer Hierarchy\Violin\SFX_Violin_DamageTaken		457568
 	219851386	SFX_Crossbow_DamageTaken	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Crossbow\SFX_Crossbow_DamageTaken_818F3B66.wem		\Actor-Mixer Hierarchy\Crossbow\SFX_Crossbow_DamageTaken		698276
-	231666472	JIN_Skill_SoundWave	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Skill\JIN_Skill_SoundWave_818F3B66.wem		\Actor-Mixer Hierarchy\Skill\JIN_Skill_SoundWave		962280
+	239609199	MUS_Rhythm_SoundWave	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\MUS_Rhythm_SoundWave_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\MUS_Rhythm_SoundWave		962280
 	279612480	SFX_Violin_BasicAttack_02	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Violin\SFX_Violin_BasicAttack_02_818F3B66.wem		\Actor-Mixer Hierarchy\Violin\SFX_Violin_BasicAttack\SFX_Violin_BasicAttack_02		121956
 	319916350	SFX_MainMenuButton_Hover	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\UI\SFX_MainMenuButton_Hover_818F3B66.wem		\Actor-Mixer Hierarchy\UI\SFX_MainMenuButton_Hover		766044
-	358574614	SFX_Skill_SpeedBoost_Success	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Skill\SFX_Skill_SpeedBoost_Success_818F3B66.wem		\Actor-Mixer Hierarchy\Skill\SFX_Skill_SpeedBoost_Success		1134096
 	390568565	BGM_Tutorial_Boss	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\BGM\BGM_Tutorial_Boss_56CEF360.wem		\Interactive Music Hierarchy\Music\BGMSwitch\BGM_Tutorial_Boss\BGM_Tutorial_Boss		1759446
-	457333191	SFX_Skill_DefenseShield_Failure	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Skill\SFX_Skill_DefenseShield_Failure_818F3B66.wem		\Actor-Mixer Hierarchy\Skill\SFX_Skill_DefenseShield_Failure		1134096
+	430296899	SFX_Rhythm_SoundWave_Success	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\SFX_Rhythm_SoundWave_Success_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\SFX_Rhythm_SoundWave_Success		378096
 	471003945	BGM_Tutorial	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\BGM\BGM_Tutorial_56CEF360.wem		\Interactive Music Hierarchy\Music\BGMSwitch\BGM_Tutorial\BGM_Tutorial		3587945
-	533401347	JIN_Skill_DefenseShield	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Skill\JIN_Skill_DefenseShield_818F3B66.wem		\Actor-Mixer Hierarchy\Skill\JIN_Skill_DefenseShield		962280
+	569933072	SFX_Rhythm_DefenseShield_Failure	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\SFX_Rhythm_DefenseShield_Failure_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\SFX_Rhythm_DefenseShield_Failure		1134096
 	584361667	SFX_MainMenuButton_Pressed	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\UI\SFX_MainMenuButton_Pressed_818F3B66.wem		\Actor-Mixer Hierarchy\UI\SFX_MainMenuButton_Pressed		742836
-	636521974	SFX_Skill_SoundWave_Failure	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Skill\SFX_Skill_SoundWave_Failure_818F3B66.wem		\Actor-Mixer Hierarchy\Skill\SFX_Skill_SoundWave_Failure		491496
-	663385401	JIN_Skill_SpeedBoost	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Skill\JIN_Skill_SpeedBoost_818F3B66.wem		\Actor-Mixer Hierarchy\Skill\JIN_Skill_SpeedBoost		962280
 	666415962	SFX_Violin_BasicAttack_01	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Violin\SFX_Violin_BasicAttack_01_818F3B66.wem		\Actor-Mixer Hierarchy\Violin\SFX_Violin_BasicAttack\SFX_Violin_BasicAttack_01		121956
 	685433719	SFX_Crossbow_ArrowFlight	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Crossbow\SFX_Crossbow_ArrowFlight_818F3B66.wem		\Actor-Mixer Hierarchy\Crossbow\SFX_Crossbow_ArrowFlight		698276
 	792102756	SFX_Crossbow_Death	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Crossbow\SFX_Crossbow_Death_818F3B66.wem		\Actor-Mixer Hierarchy\Crossbow\SFX_Crossbow_Death		1396460
 	805300462	SFX_Sword_Spawn	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Sword\SFX_Sword_Spawn_818F3B66.wem		\Actor-Mixer Hierarchy\Sword\SFX_Sword_Spawn		352896
-	805876197	SFX_Skill_SoundWave_Success	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Skill\SFX_Skill_SoundWave_Success_818F3B66.wem		\Actor-Mixer Hierarchy\Skill\SFX_Skill_SoundWave_Success		378096
 	854794988	SFX_Violin_Death	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Violin\SFX_Violin_Death_818F3B66.wem		\Actor-Mixer Hierarchy\Violin\SFX_Violin_Death		1719996
 	857039541	SFX_Sword_DamageTaken	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Sword\SFX_Sword_DamageTaken_818F3B66.wem		\Actor-Mixer Hierarchy\Sword\SFX_Sword_DamageTaken		128852
-	898971673	SFX_Skill_DefenseShield_Success	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Skill\SFX_Skill_DefenseShield_Success_818F3B66.wem		\Actor-Mixer Hierarchy\Skill\SFX_Skill_DefenseShield_Success		453696
+	873631487	SFX_Rhythm_SpeedBoost_Failure	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\SFX_Rhythm_SpeedBoost_Failure_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\SFX_Rhythm_SpeedBoost_Failure		419708
 	959171433	SFX_Sword_Death	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Sword\SFX_Sword_Death_818F3B66.wem		\Actor-Mixer Hierarchy\Sword\SFX_Sword_Death		267388
-	1054028180	SFX_Skill_SpeedBoost_Failure	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Skill\SFX_Skill_SpeedBoost_Failure_818F3B66.wem		\Actor-Mixer Hierarchy\Skill\SFX_Skill_SpeedBoost_Failure		419708
+	988959284	MUS_Rhythm_DefenseShield	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\MUS_Rhythm_DefenseShield_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\MUS_Rhythm_DefenseShield		962280
 	1063407638	SFX_Violin_BasicAttack_03	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Violin\SFX_Violin_BasicAttack_03_818F3B66.wem		\Actor-Mixer Hierarchy\Violin\SFX_Violin_BasicAttack\SFX_Violin_BasicAttack_03		121956
 

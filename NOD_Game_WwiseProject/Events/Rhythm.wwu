@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{24B94C65-AB95-4F89-AB55-7AC167D7FD60}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Rhythm" ID="{24B94C65-AB95-4F89-AB55-7AC167D7FD60}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Rhythm_SoundWave_Success" ID="{39CCA331-F071-45EB-9B67-3C143469A1C1}">
+					<ChildrenList>
+						<Action Name="" ID="{B7A1CDF0-C7C5-45F5-AA2C-77C4AC798984}" ShortID="97357356">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Rhythm_SoundWave_Success" ID="{840AA1B0-5AF3-475C-A244-B158664602CF}" WorkUnitID="{F85C4653-EBCA-4DA9-A552-F786A2030563}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rhythm_SoundWave_Failure" ID="{CDBCB70A-C102-4626-8AAD-C9DEBB4EE67F}">
+					<ChildrenList>
+						<Action Name="" ID="{34ECF596-1924-41C7-B680-4021248D08CB}" ShortID="223373870">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Rhythm_SoundWave_Failure" ID="{C28D103E-34A8-4D14-B517-6EAA941C49FD}" WorkUnitID="{F85C4653-EBCA-4DA9-A552-F786A2030563}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rhythm_DefenseShield_Success" ID="{EF9512E6-5B92-49C1-9E09-BD9CD67966C4}">
+					<ChildrenList>
+						<Action Name="" ID="{3418D16D-1035-4CD6-9671-2B4CFE7B1144}" ShortID="91163159">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Rhythm_DefenseShield_Success" ID="{247DB302-39C3-47AF-AEDB-8D9A827F9979}" WorkUnitID="{F85C4653-EBCA-4DA9-A552-F786A2030563}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rhythm_DefenseShield_Failure" ID="{FC23FCDD-1ADA-4861-AFA9-35A5DB9C2A27}">
+					<ChildrenList>
+						<Action Name="" ID="{25BD9675-6F88-4593-B965-98D046F3192C}" ShortID="123715349">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Rhythm_DefenseShield_Failure" ID="{E3A25434-683D-4CF3-9DB4-DB35AF55D987}" WorkUnitID="{F85C4653-EBCA-4DA9-A552-F786A2030563}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rhythm_SpeedBoost_Success" ID="{E4B991AB-FD00-4C98-9526-8D17CB4FC408}">
+					<ChildrenList>
+						<Action Name="" ID="{79039FC5-ECC2-418A-BF1B-6235628B2D85}" ShortID="317102618">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Rhythm_SpeedBoost_Success" ID="{5FBBF878-AED0-4010-BAEF-7B2342FAB47B}" WorkUnitID="{F85C4653-EBCA-4DA9-A552-F786A2030563}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rhythm_SpeedBoost_Failure" ID="{32FE2F0B-9C46-4D94-B857-A31B7BF0920F}">
+					<ChildrenList>
+						<Action Name="" ID="{6AA64A76-4F1E-47EB-ACB3-6DA315B61D4B}" ShortID="501873988">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Rhythm_SpeedBoost_Failure" ID="{9CFFFB21-CC0A-4AC0-B1D4-B4080485C80B}" WorkUnitID="{F85C4653-EBCA-4DA9-A552-F786A2030563}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Tracks" ID="{9FEC70E4-8A6B-405E-AC10-65AA0D7D787E}" ShortID="261122866">
+					<ChildrenList>
+						<Event Name="Play_Rhythm_SpeedBoost_Track" ID="{9D5B881A-3892-4890-B51A-F2CEE1D8F840}">
+							<ChildrenList>
+								<Action Name="" ID="{5CF70F12-AEC8-4715-B6B3-C0A119B49F71}" ShortID="839322361">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MUS_Rhythm_SpeedBoost" ID="{939E223E-1C42-47A1-AB66-316F068CEF97}" WorkUnitID="{F85C4653-EBCA-4DA9-A552-F786A2030563}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Rhythm_SoundWave_Track" ID="{1EE0EFEB-B4E0-4588-AF2B-7C3E1965314A}">
+							<ChildrenList>
+								<Action Name="" ID="{EAA0D3C5-E3BC-408B-9B3C-6AEE9413778C}" ShortID="365183188">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MUS_Rhythm_SoundWave" ID="{9EDD3770-DB92-435B-B55D-86EF112ADB7A}" WorkUnitID="{F85C4653-EBCA-4DA9-A552-F786A2030563}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Rhythm_DefenseShield_Track" ID="{0919DC64-6E59-4934-A1FE-2FBA734DA64A}">
+							<ChildrenList>
+								<Action Name="" ID="{871A5010-1B6E-4E53-AF6A-00C2C7B5EB68}" ShortID="789077254">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MUS_Rhythm_DefenseShield" ID="{7FBC651B-5E34-4B7E-893D-54BC7AAC3AF4}" WorkUnitID="{F85C4653-EBCA-4DA9-A552-F786A2030563}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

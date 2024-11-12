@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{01AE373F-539C-4300-9309-F1CD80D8D985}" Language="SFX" Hash="{FCFDB00A-B2D9-BDDB-5D36-69F0AB972A25}">
+		<SoundBank Id="3161908922" Type="User" GUID="{01AE373F-539C-4300-9309-F1CD80D8D985}" Language="SFX" Hash="{8B5EED56-CE9F-4EA0-53C9-DF8594782D16}">
 			<ObjectPath>\SoundBanks\Main\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -10,9 +10,25 @@
 					<ShortName>Crossbow\SFX_Crossbow_Spawn.wav</ShortName>
 					<CachePath>SFX/Crossbow/SFX_Crossbow_Spawn_818F3B66.wem</CachePath>
 				</File>
+				<File Id="144836579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rhythm\SFX_Rhythm_SoundWave_Failure.wav</ShortName>
+					<CachePath>SFX/Rhythm/SFX_Rhythm_SoundWave_Failure_818F3B66.wem</CachePath>
+				</File>
+				<File Id="165497590" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rhythm\SFX_Rhythm_SpeedBoost_Success.wav</ShortName>
+					<CachePath>SFX/Rhythm/SFX_Rhythm_SpeedBoost_Success_818F3B66.wem</CachePath>
+				</File>
+				<File Id="174881815" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rhythm\MUS_Rhythm_SpeedBoost.wav</ShortName>
+					<CachePath>SFX/Rhythm/MUS_Rhythm_SpeedBoost_818F3B66.wem</CachePath>
+				</File>
 				<File Id="181508161" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BGM\BGM_Main_Menu.wav</ShortName>
 					<CachePath>SFX/BGM/BGM_Main_Menu_56CEF360.wem</CachePath>
+				</File>
+				<File Id="182540190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rhythm\SFX_Rhythm_DefenseShield_Success.wav</ShortName>
+					<CachePath>SFX/Rhythm/SFX_Rhythm_DefenseShield_Success_818F3B66.wem</CachePath>
 				</File>
 				<File Id="195368164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Violin\SFX_Violin_DamageTaken.wav</ShortName>
@@ -22,9 +38,9 @@
 					<ShortName>Crossbow\SFX_Crossbow_DamageTaken.wav</ShortName>
 					<CachePath>SFX/Crossbow/SFX_Crossbow_DamageTaken_818F3B66.wem</CachePath>
 				</File>
-				<File Id="231666472" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Skill\JIN_Skill_SoundWave.wav</ShortName>
-					<CachePath>SFX/Skill/JIN_Skill_SoundWave_818F3B66.wem</CachePath>
+				<File Id="239609199" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rhythm\MUS_Rhythm_SoundWave.wav</ShortName>
+					<CachePath>SFX/Rhythm/MUS_Rhythm_SoundWave_818F3B66.wem</CachePath>
 				</File>
 				<File Id="279612480" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Violin\SFX_Violin_BasicAttack_02.wav</ShortName>
@@ -34,37 +50,25 @@
 					<ShortName>UI\SFX_MainMenuButton_Hover.wav</ShortName>
 					<CachePath>SFX/UI/SFX_MainMenuButton_Hover_818F3B66.wem</CachePath>
 				</File>
-				<File Id="358574614" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Skill\SFX_Skill_SpeedBoost_Success.wav</ShortName>
-					<CachePath>SFX/Skill/SFX_Skill_SpeedBoost_Success_818F3B66.wem</CachePath>
-				</File>
 				<File Id="390568565" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BGM\BGM_Tutorial_Boss.wav</ShortName>
 					<CachePath>SFX/BGM/BGM_Tutorial_Boss_56CEF360.wem</CachePath>
 				</File>
-				<File Id="457333191" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Skill\SFX_Skill_DefenseShield_Failure.wav</ShortName>
-					<CachePath>SFX/Skill/SFX_Skill_DefenseShield_Failure_818F3B66.wem</CachePath>
+				<File Id="430296899" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rhythm\SFX_Rhythm_SoundWave_Success.wav</ShortName>
+					<CachePath>SFX/Rhythm/SFX_Rhythm_SoundWave_Success_818F3B66.wem</CachePath>
 				</File>
 				<File Id="471003945" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BGM\BGM_Tutorial.wav</ShortName>
 					<CachePath>SFX/BGM/BGM_Tutorial_56CEF360.wem</CachePath>
 				</File>
-				<File Id="533401347" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Skill\JIN_Skill_DefenseShield.wav</ShortName>
-					<CachePath>SFX/Skill/JIN_Skill_DefenseShield_818F3B66.wem</CachePath>
+				<File Id="569933072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rhythm\SFX_Rhythm_DefenseShield_Failure.wav</ShortName>
+					<CachePath>SFX/Rhythm/SFX_Rhythm_DefenseShield_Failure_818F3B66.wem</CachePath>
 				</File>
 				<File Id="584361667" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\SFX_MainMenuButton_Pressed.wav</ShortName>
 					<CachePath>SFX/UI/SFX_MainMenuButton_Pressed_818F3B66.wem</CachePath>
-				</File>
-				<File Id="636521974" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Skill\SFX_Skill_SoundWave_Failure.wav</ShortName>
-					<CachePath>SFX/Skill/SFX_Skill_SoundWave_Failure_818F3B66.wem</CachePath>
-				</File>
-				<File Id="663385401" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Skill\JIN_Skill_SpeedBoost.wav</ShortName>
-					<CachePath>SFX/Skill/JIN_Skill_SpeedBoost_818F3B66.wem</CachePath>
 				</File>
 				<File Id="666415962" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Violin\SFX_Violin_BasicAttack_01.wav</ShortName>
@@ -82,10 +86,6 @@
 					<ShortName>Sword\SFX_Sword_Spawn.wav</ShortName>
 					<CachePath>SFX/Sword/SFX_Sword_Spawn_818F3B66.wem</CachePath>
 				</File>
-				<File Id="805876197" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Skill\SFX_Skill_SoundWave_Success.wav</ShortName>
-					<CachePath>SFX/Skill/SFX_Skill_SoundWave_Success_818F3B66.wem</CachePath>
-				</File>
 				<File Id="854794988" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Violin\SFX_Violin_Death.wav</ShortName>
 					<CachePath>SFX/Violin/SFX_Violin_Death_818F3B66.wem</CachePath>
@@ -94,17 +94,17 @@
 					<ShortName>Sword\SFX_Sword_DamageTaken.wav</ShortName>
 					<CachePath>SFX/Sword/SFX_Sword_DamageTaken_818F3B66.wem</CachePath>
 				</File>
-				<File Id="898971673" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Skill\SFX_Skill_DefenseShield_Success.wav</ShortName>
-					<CachePath>SFX/Skill/SFX_Skill_DefenseShield_Success_818F3B66.wem</CachePath>
+				<File Id="873631487" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rhythm\SFX_Rhythm_SpeedBoost_Failure.wav</ShortName>
+					<CachePath>SFX/Rhythm/SFX_Rhythm_SpeedBoost_Failure_818F3B66.wem</CachePath>
 				</File>
 				<File Id="959171433" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sword\SFX_Sword_Death.wav</ShortName>
 					<CachePath>SFX/Sword/SFX_Sword_Death_818F3B66.wem</CachePath>
 				</File>
-				<File Id="1054028180" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Skill\SFX_Skill_SpeedBoost_Failure.wav</ShortName>
-					<CachePath>SFX/Skill/SFX_Skill_SpeedBoost_Failure_818F3B66.wem</CachePath>
+				<File Id="988959284" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rhythm\MUS_Rhythm_DefenseShield.wav</ShortName>
+					<CachePath>SFX/Rhythm/MUS_Rhythm_DefenseShield_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1063407638" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Violin\SFX_Violin_BasicAttack_03.wav</ShortName>
@@ -164,49 +164,49 @@
 						<MediaRef Id="584361667"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2347269972" Name="Play_Skill_DefenseShield_Failure" ObjectPath="\Events\Skill\Play_Skill_DefenseShield_Failure" GUID="{B77B88AF-0FBC-4B8E-AA36-6A7CAA0B85EF}" DurationType="OneShot" DurationMin="6.428571" DurationMax="6.428571">
+				<Event Id="1485927955" Name="Play_Rhythm_DefenseShield_Failure" ObjectPath="\Events\Rhythm\Play_Rhythm_DefenseShield_Failure" GUID="{FC23FCDD-1ADA-4861-AFA9-35A5DB9C2A27}" DurationType="OneShot" DurationMin="6.428571" DurationMax="6.428571">
 					<MediaRefs>
-						<MediaRef Id="457333191"/>
+						<MediaRef Id="569933072"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1261317629" Name="Play_Skill_DefenseShield_Jingle" ObjectPath="\Events\Skill\Play_Skill_DefenseShield_Jingle" GUID="{4C1EC398-C574-44B4-A9DC-4F2B6C2BC8B6}" DurationType="OneShot" DurationMin="5.454558" DurationMax="5.454558">
+				<Event Id="2570083928" Name="Play_Rhythm_DefenseShield_Success" ObjectPath="\Events\Rhythm\Play_Rhythm_DefenseShield_Success" GUID="{EF9512E6-5B92-49C1-9E09-BD9CD67966C4}" DurationType="OneShot" DurationMin="2.5714285" DurationMax="2.5714285">
 					<MediaRefs>
-						<MediaRef Id="533401347"/>
+						<MediaRef Id="182540190"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="669442651" Name="Play_Skill_DefenseShield_Success" ObjectPath="\Events\Skill\Play_Skill_DefenseShield_Success" GUID="{AD0F7929-1A83-4E19-BFFB-120F11E0CCD9}" DurationType="OneShot" DurationMin="2.5714285" DurationMax="2.5714285">
+				<Event Id="613775276" Name="Play_Rhythm_DefenseShield_Track" ObjectPath="\Events\Rhythm\Tracks\Play_Rhythm_DefenseShield_Track" GUID="{0919DC64-6E59-4934-A1FE-2FBA734DA64A}" DurationType="OneShot" DurationMin="5.454558" DurationMax="5.454558">
 					<MediaRefs>
-						<MediaRef Id="898971673"/>
+						<MediaRef Id="988959284"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="608416425" Name="Play_Skill_SoundWave_Failure" ObjectPath="\Events\Skill\Play_Skill_SoundWave_Failure" GUID="{065A926C-EA1C-4768-B417-FB0A4550CB01}" DurationType="OneShot" DurationMin="2.7857144" DurationMax="2.7857144">
+				<Event Id="903162942" Name="Play_Rhythm_SoundWave_Failure" ObjectPath="\Events\Rhythm\Play_Rhythm_SoundWave_Failure" GUID="{CDBCB70A-C102-4626-8AAD-C9DEBB4EE67F}" DurationType="OneShot" DurationMin="2.7857144" DurationMax="2.7857144">
 					<MediaRefs>
-						<MediaRef Id="636521974"/>
+						<MediaRef Id="144836579"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="344848046" Name="Play_Skill_SoundWave_Jingle" ObjectPath="\Events\Skill\Play_Skill_SoundWave_Jingle" GUID="{71831D2E-E7AC-44B3-85FA-348EEFFEA013}" DurationType="OneShot" DurationMin="5.454558" DurationMax="5.454558">
+				<Event Id="3232719369" Name="Play_Rhythm_SoundWave_Success" ObjectPath="\Events\Rhythm\Play_Rhythm_SoundWave_Success" GUID="{39CCA331-F071-45EB-9B67-3C143469A1C1}" DurationType="OneShot" DurationMin="2.142857" DurationMax="2.142857">
 					<MediaRefs>
-						<MediaRef Id="231666472"/>
+						<MediaRef Id="430296899"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3360748338" Name="Play_Skill_SoundWave_Success" ObjectPath="\Events\Skill\Play_Skill_SoundWave_Success" GUID="{1857611E-52DD-416F-B47E-325F9DE90899}" DurationType="OneShot" DurationMin="2.142857" DurationMax="2.142857">
+				<Event Id="2215600837" Name="Play_Rhythm_SoundWave_Track" ObjectPath="\Events\Rhythm\Tracks\Play_Rhythm_SoundWave_Track" GUID="{1EE0EFEB-B4E0-4588-AF2B-7C3E1965314A}" DurationType="OneShot" DurationMin="5.454558" DurationMax="5.454558">
 					<MediaRefs>
-						<MediaRef Id="805876197"/>
+						<MediaRef Id="239609199"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3704568641" Name="Play_Skill_SpeedBoost_Failure" ObjectPath="\Events\Skill\Play_Skill_SpeedBoost_Failure" GUID="{DA89D37D-E484-4635-96EA-B350DCD8C5EE}" DurationType="OneShot" DurationMin="2.378753" DurationMax="2.378753">
+				<Event Id="934338728" Name="Play_Rhythm_SpeedBoost_Failure" ObjectPath="\Events\Rhythm\Play_Rhythm_SpeedBoost_Failure" GUID="{32FE2F0B-9C46-4D94-B857-A31B7BF0920F}" DurationType="OneShot" DurationMin="2.378753" DurationMax="2.378753">
 					<MediaRefs>
-						<MediaRef Id="1054028180"/>
+						<MediaRef Id="873631487"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2476371958" Name="Play_Skill_SpeedBoost_Jingle" ObjectPath="\Events\Skill\Play_Skill_SpeedBoost_Jingle" GUID="{F534DE7C-2285-422B-9BAB-F6FAC3571EF3}" DurationType="OneShot" DurationMin="5.454558" DurationMax="5.454558">
+				<Event Id="3804782223" Name="Play_Rhythm_SpeedBoost_Success" ObjectPath="\Events\Rhythm\Play_Rhythm_SpeedBoost_Success" GUID="{E4B991AB-FD00-4C98-9526-8D17CB4FC408}" DurationType="OneShot" DurationMin="6.428571" DurationMax="6.428571">
 					<MediaRefs>
-						<MediaRef Id="663385401"/>
+						<MediaRef Id="165497590"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1078248586" Name="Play_Skill_SpeedBoost_Success" ObjectPath="\Events\Skill\Play_Skill_SpeedBoost_Success" GUID="{C1DDE3B6-61C8-4B52-B09E-EC7B2ECAB84F}" DurationType="OneShot" DurationMin="6.428571" DurationMax="6.428571">
+				<Event Id="640616963" Name="Play_Rhythm_SpeedBoost_Track" ObjectPath="\Events\Rhythm\Tracks\Play_Rhythm_SpeedBoost_Track" GUID="{9D5B881A-3892-4890-B51A-F2CEE1D8F840}" DurationType="OneShot" DurationMin="5.454558" DurationMax="5.454558">
 					<MediaRefs>
-						<MediaRef Id="358574614"/>
+						<MediaRef Id="174881815"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2319534280" Name="Play_Sword_DamageTaken" ObjectPath="\Events\Sword\Play_Sword_DamageTaken" GUID="{D113A297-220F-418B-8D4E-7A3841CD4DD5}" DurationType="OneShot" DurationMin="0.7299093" DurationMax="0.7299093">
@@ -254,5 +254,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AEA30A9D-1D38-3B21-C0F3-14CC974637D6}</FileHash>
+	<FileHash>{0ECA08EB-2D2F-94D5-0EB6-E07B48DD78AD}</FileHash>
 </SoundBanksInfo>
