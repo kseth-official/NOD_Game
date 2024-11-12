@@ -90,7 +90,7 @@
     "Type": "User",
     "GUID": "{01AE373F-539C-4300-9309-F1CD80D8D985}",
     "Language": "SFX",
-    "Hash": "{8B5EED56-CE9F-4EA0-53C9-DF8594782D16}",
+    "Hash": "{9F75ACF1-DF55-069A-2C27-4033EE0BAD6B}",
     "ObjectPath": "\\SoundBanks\\Main\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -118,6 +118,14 @@
       "Location": "Memory",
       "ShortName": "Rhythm\\SFX_Rhythm_SpeedBoost_Success.wav",
       "CachePath": "SFX/Rhythm/SFX_Rhythm_SpeedBoost_Success_818F3B66.wem"
+     },
+     {
+      "Id": "171458937",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Violin\\SFX_Violin_Spawn.wav",
+      "CachePath": "SFX/Violin/SFX_Violin_Spawn_818F3B66.wem"
      },
      {
       "Id": "174881815",
@@ -652,6 +660,20 @@
         "Id": "854794988"
        }
       ]
+     },
+     {
+      "Id": "701539157",
+      "Name": "Play_Violin_Spawn",
+      "ObjectPath": "\\Events\\Violin\\Play_Violin_Spawn",
+      "GUID": "{0232A3A8-0728-40AA-B8C6-794711670927}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.125011",
+      "DurationMax": "9.125011",
+      "MediaRefs": [
+       {
+        "Id": "171458937"
+       }
+      ]
      }
     ],
     "StateGroups": [
@@ -726,6 +748,6 @@
     ]
    }
   ],
-  "FileHash": "{C250C2AE-7E2A-4D52-BB31-0E01A8C4E85E}"
+  "FileHash": "{C078387A-69C3-D985-A01F-6A8AD9460BAE}"
  }
 }

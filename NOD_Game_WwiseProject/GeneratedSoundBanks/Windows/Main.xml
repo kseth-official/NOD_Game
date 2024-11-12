@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{01AE373F-539C-4300-9309-F1CD80D8D985}" Language="SFX" Hash="{8B5EED56-CE9F-4EA0-53C9-DF8594782D16}">
+		<SoundBank Id="3161908922" Type="User" GUID="{01AE373F-539C-4300-9309-F1CD80D8D985}" Language="SFX" Hash="{9F75ACF1-DF55-069A-2C27-4033EE0BAD6B}">
 			<ObjectPath>\SoundBanks\Main\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -17,6 +17,10 @@
 				<File Id="165497590" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rhythm\SFX_Rhythm_SpeedBoost_Success.wav</ShortName>
 					<CachePath>SFX/Rhythm/SFX_Rhythm_SpeedBoost_Success_818F3B66.wem</CachePath>
+				</File>
+				<File Id="171458937" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Violin\SFX_Violin_Spawn.wav</ShortName>
+					<CachePath>SFX/Violin/SFX_Violin_Spawn_818F3B66.wem</CachePath>
 				</File>
 				<File Id="174881815" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rhythm\MUS_Rhythm_SpeedBoost.wav</ShortName>
@@ -241,6 +245,11 @@
 						<MediaRef Id="854794988"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="701539157" Name="Play_Violin_Spawn" ObjectPath="\Events\Violin\Play_Violin_Spawn" GUID="{0232A3A8-0728-40AA-B8C6-794711670927}" DurationType="OneShot" DurationMin="9.125011" DurationMax="9.125011">
+					<MediaRefs>
+						<MediaRef Id="171458937"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<StateGroups>
 				<StateGroup Id="2064552269" Name="AreaState" ObjectPath="\States\Default Work Unit\AreaState" GUID="{3E39C3F8-2E37-428D-BB92-7ED085166989}">
@@ -254,5 +263,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0ECA08EB-2D2F-94D5-0EB6-E07B48DD78AD}</FileHash>
+	<FileHash>{36BDEAF0-335E-8307-C087-E250F6F4BD4A}</FileHash>
 </SoundBanksInfo>

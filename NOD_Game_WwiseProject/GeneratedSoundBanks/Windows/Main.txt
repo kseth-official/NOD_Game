@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	613775276	Play_Rhythm_DefenseShield_Track			\Rhythm\Tracks\Play_Rhythm_DefenseShield_Track	
 	614997430	Play_Violin_BasicAttack			\Violin\Play_Violin_BasicAttack	
 	640616963	Play_Rhythm_SpeedBoost_Track			\Rhythm\Tracks\Play_Rhythm_SpeedBoost_Track	
+	701539157	Play_Violin_Spawn			\Violin\Play_Violin_Spawn	
 	903162942	Play_Rhythm_SoundWave_Failure			\Rhythm\Play_Rhythm_SoundWave_Failure	
 	934338728	Play_Rhythm_SpeedBoost_Failure			\Rhythm\Play_Rhythm_SpeedBoost_Failure	
 	1485927955	Play_Rhythm_DefenseShield_Failure			\Rhythm\Play_Rhythm_DefenseShield_Failure	
@@ -35,6 +36,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	25100942	SFX_Crossbow_Spawn	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Crossbow\SFX_Crossbow_Spawn_818F3B66.wem		\Actor-Mixer Hierarchy\Crossbow\SFX_Crossbow_Spawn		1571004
 	144836579	SFX_Rhythm_SoundWave_Failure	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\SFX_Rhythm_SoundWave_Failure_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\SFX_Rhythm_SoundWave_Failure		491496
 	165497590	SFX_Rhythm_SpeedBoost_Success	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\SFX_Rhythm_SpeedBoost_Success_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\SFX_Rhythm_SpeedBoost_Success		1134096
+	171458937	SFX_Violin_Spawn	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Violin\SFX_Violin_Spawn_818F3B66.wem		\Actor-Mixer Hierarchy\Violin\SFX_Violin_Spawn		1609748
 	174881815	MUS_Rhythm_SpeedBoost	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\MUS_Rhythm_SpeedBoost_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\MUS_Rhythm_SpeedBoost		962280
 	181508161	BGM_Main_Menu	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\BGM\BGM_Main_Menu_56CEF360.wem		\Interactive Music Hierarchy\Music\BGMSwitch\BGM_Main_Menu\BGM_Main_Menu		961361
 	182540190	SFX_Rhythm_DefenseShield_Success	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\SFX_Rhythm_DefenseShield_Success_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\SFX_Rhythm_DefenseShield_Success		453696
