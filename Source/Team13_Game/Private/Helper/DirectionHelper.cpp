@@ -25,33 +25,56 @@ TArray<EDirection> UDirectionHelper::Directions = {
 	EDirection::NorthEast,
 };
 
-uint8 UDirectionHelper::FacingDirectionToIndex(const ABaseGamePaperZDCharacter* Character)
+uint8 UDirectionHelper::FacingDirectionOfCharacterToIndex(const ABaseGamePaperZDCharacter* Character)
 {
 	if (Character)
 	{
-		switch (Character->FacingDirection)
-		{
-			case EDirection::East:
-			case EDirection::West:
-				return 0;
-			case EDirection::South:
-				return 1;
-			case EDirection::North:
-				return 2;
-			case EDirection::SouthEast:
-			case EDirection::SouthWest:
-				return 3;
-			case EDirection::NorthWest:
-			case EDirection::NorthEast:
-				return 4;
-			default:
-				return -1;
-		}
+		return FacingDirectionToIndex(Character->FacingDirection);
 	}
 	return -1;
+}
+
+uint8 UDirectionHelper::FacingDirectionToIndex(const EDirection& Direction)
+{
+	switch (Direction)
+	{
+	case EDirection::East:
+	case EDirection::West:
+		return 0;
+	case EDirection::South:
+		return 1;
+	case EDirection::North:
+		return 2;
+	case EDirection::SouthEast:
+	case EDirection::SouthWest:
+		return 3;
+	case EDirection::NorthWest:
+	case EDirection::NorthEast:
+		return 4;
+	default:
+		return -1;
+	}
 }
 
 TMap<FVector2D, EDirection> UDirectionHelper::GetTwoDVecToDirection()
 {
 	return TwoDVecToDirection;
+}
+
+EDirection UDirectionHelper::RotateClockwise(const EDirection& Direction, const float& Angle)
+{
+	constexpr float StepSize = 360.f / NumberOfDirections;
+	const int32 IndicesToRotate = static_cast<int32>(Angle / StepSize);
+	const int32 Index = static_cast<int32>(Direction);
+	const int32 NewIndex = (Index + IndicesToRotate) & (NumberOfDirections - 1);
+	return Directions[NewIndex];
+}
+
+EDirection UDirectionHelper::RotateAntiClockwise(const EDirection& Direction, const float& Angle)
+{
+	constexpr float StepSize = 360.f / NumberOfDirections;
+	const int32 IndicesToRotate = static_cast<int32>(Angle / StepSize);
+	const int32 Index = static_cast<int32>(Direction);
+	const int32 NewIndex = (Index - IndicesToRotate + NumberOfDirections) & (NumberOfDirections - 1);
+	return Directions[NewIndex];
 }

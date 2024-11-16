@@ -11,12 +11,13 @@
 UENUM(BlueprintType)
 enum class EDirection : uint8
 {
-	NorthWest,
-	North,
-	NorthEast,
 	East,
 	SouthEast,
 	South,
 	SouthWest,
-	West
+	West,
+	NorthWest,
+	North,
+	NorthEast,
 };
+
