@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	701539157	Play_Violin_Spawn			\Violin\Play_Violin_Spawn	
 	903162942	Play_Rhythm_SoundWave_Failure			\Rhythm\Outcomes\Play_Rhythm_SoundWave_Failure	
 	934338728	Play_Rhythm_SpeedBoost_Failure			\Rhythm\Outcomes\Play_Rhythm_SpeedBoost_Failure	
+	1042626097	Play_BGM_Tutorial			\Music\Play_BGM_Tutorial	
 	1485927955	Play_Rhythm_DefenseShield_Failure			\Rhythm\Outcomes\Play_Rhythm_DefenseShield_Failure	
 	1639076598	Play_Crossbow_ArrowFlight			\Crossbow\Play_Crossbow_ArrowFlight	
 	1745058166	Play_Violin_Death			\Violin\Play_Violin_Death	
@@ -18,6 +19,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2215600837	Play_Rhythm_SoundWave_Track			\Rhythm\Tracks\Play_Rhythm_SoundWave_Track	
 	2319534280	Play_Sword_DamageTaken			\Sword\Play_Sword_DamageTaken	
 	2405121250	Play_TutorialPrompt_Activated			\Dialogue\Play_TutorialPrompt_Activated	
+	2424914239	Play_BGM_Tutorial_Boss			\Music\Play_BGM_Tutorial_Boss	
 	2570083928	Play_Rhythm_DefenseShield_Success			\Rhythm\Outcomes\Play_Rhythm_DefenseShield_Success	
 	2753041483	Play_DefenseShield_Pulse			\Rhythm\Play_DefenseShield_Pulse	
 	2844296131	Play_MainMenuButton_Hover			\UI\Play_MainMenuButton_Hover	
@@ -26,6 +28,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3358992548	Play_HarpNPC_Interacted			\Dialogue\Play_HarpNPC_Interacted	
 	3804782223	Play_Rhythm_SpeedBoost_Success			\Rhythm\Outcomes\Play_Rhythm_SpeedBoost_Success	
 	4120079856	Play_BGMSwitch			\Music\Play_BGMSwitch	
+	4157944665	Play_BGM_MainMenu			\Music\Play_BGM_MainMenu	
 	4177665589	Play_Dialogue_Advanced			\Dialogue\Play_Dialogue_Advanced	
 
 State Group	ID	Name			Wwise Object Path	Notes

@@ -14,6 +14,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_BGM_Tutorial" ID="{6084FBE7-3FAF-4BDD-BDA9-695C97D08BFF}">
+					<ChildrenList>
+						<Action Name="" ID="{3D15F092-1B1C-446F-A785-1259E7EB02E4}" ShortID="1053565493">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_Tutorial" ID="{CD7C8E82-84D7-421E-970F-F80810060DD6}" WorkUnitID="{6B869D19-6CD9-4C9A-B95D-0BB985E9B09A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BGM_MainMenu" ID="{4B6FE446-6607-422A-96B3-0AF7C94A0C15}">
+					<ChildrenList>
+						<Action Name="" ID="{3EBF67D4-E15A-4098-ABEC-DA9F5D710856}" ShortID="398331955">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_Main_Menu" ID="{FEDD87E5-F293-4B72-9885-AFDE6BE53EF4}" WorkUnitID="{6B869D19-6CD9-4C9A-B95D-0BB985E9B09A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BGM_Tutorial_Boss" ID="{07928233-0E01-455E-B06A-4EA5D3E93E75}">
+					<ChildrenList>
+						<Action Name="" ID="{BDB5CD8B-8E9A-488D-9094-3D811BF10FEB}" ShortID="368114432">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_Tutorial_Boss" ID="{8F0B8292-8CB2-4DDC-8BE7-DAAB40EBB869}" WorkUnitID="{6B869D19-6CD9-4C9A-B95D-0BB985E9B09A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

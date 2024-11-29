@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{01AE373F-539C-4300-9309-F1CD80D8D985}",
     "Language": "SFX",
-    "Hash": "{E988EE84-9A6B-6B34-4AD2-927E5ACCBC97}",
+    "Hash": "{F18A923F-32DE-BBAC-0CEB-44BE5967FEC6}",
     "ObjectPath": "\\SoundBanks\\Main\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -281,6 +281,48 @@
      }
     ],
     "Events": [
+     {
+      "Id": "4157944665",
+      "Name": "Play_BGM_MainMenu",
+      "ObjectPath": "\\Events\\Music\\Play_BGM_MainMenu",
+      "GUID": "{4B6FE446-6607-422A-96B3-0AF7C94A0C15}",
+      "DurationType": "OneShot",
+      "DurationMin": "68.82353",
+      "DurationMax": "68.82353",
+      "MediaRefs": [
+       {
+        "Id": "181508161"
+       }
+      ]
+     },
+     {
+      "Id": "1042626097",
+      "Name": "Play_BGM_Tutorial",
+      "ObjectPath": "\\Events\\Music\\Play_BGM_Tutorial",
+      "GUID": "{6084FBE7-3FAF-4BDD-BDA9-695C97D08BFF}",
+      "DurationType": "OneShot",
+      "DurationMin": "210.90909",
+      "DurationMax": "210.90909",
+      "MediaRefs": [
+       {
+        "Id": "471003945"
+       }
+      ]
+     },
+     {
+      "Id": "2424914239",
+      "Name": "Play_BGM_Tutorial_Boss",
+      "ObjectPath": "\\Events\\Music\\Play_BGM_Tutorial_Boss",
+      "GUID": "{07928233-0E01-455E-B06A-4EA5D3E93E75}",
+      "DurationType": "OneShot",
+      "DurationMin": "101.818184",
+      "DurationMax": "101.818184",
+      "MediaRefs": [
+       {
+        "Id": "390568565"
+       }
+      ]
+     },
      {
       "Id": "4120079856",
       "Name": "Play_BGMSwitch",
@@ -753,6 +795,6 @@
     ]
    }
   ],
-  "FileHash": "{F8C8A4AE-D361-A29D-513C-1DDDFE78AA33}"
+  "FileHash": "{E102B8D1-DC6C-0A35-18C6-063EA77C10D3}"
  }
 }

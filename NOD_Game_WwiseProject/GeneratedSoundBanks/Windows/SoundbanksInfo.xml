@@ -33,7 +33,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{01AE373F-539C-4300-9309-F1CD80D8D985}" Language="SFX" Hash="{E988EE84-9A6B-6B34-4AD2-927E5ACCBC97}">
+		<SoundBank Id="3161908922" Type="User" GUID="{01AE373F-539C-4300-9309-F1CD80D8D985}" Language="SFX" Hash="{F18A923F-32DE-BBAC-0CEB-44BE5967FEC6}">
 			<ObjectPath>\SoundBanks\Main\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -172,6 +172,21 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="4157944665" Name="Play_BGM_MainMenu" ObjectPath="\Events\Music\Play_BGM_MainMenu" GUID="{4B6FE446-6607-422A-96B3-0AF7C94A0C15}" DurationType="OneShot" DurationMin="68.82353" DurationMax="68.82353">
+					<MediaRefs>
+						<MediaRef Id="181508161"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1042626097" Name="Play_BGM_Tutorial" ObjectPath="\Events\Music\Play_BGM_Tutorial" GUID="{6084FBE7-3FAF-4BDD-BDA9-695C97D08BFF}" DurationType="OneShot" DurationMin="210.90909" DurationMax="210.90909">
+					<MediaRefs>
+						<MediaRef Id="471003945"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2424914239" Name="Play_BGM_Tutorial_Boss" ObjectPath="\Events\Music\Play_BGM_Tutorial_Boss" GUID="{07928233-0E01-455E-B06A-4EA5D3E93E75}" DurationType="OneShot" DurationMin="101.818184" DurationMax="101.818184">
+					<MediaRefs>
+						<MediaRef Id="390568565"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4120079856" Name="Play_BGMSwitch" ObjectPath="\Events\Music\Play_BGMSwitch" GUID="{A6BDE8A7-DA64-4586-AF7C-FB9960D046C1}" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -363,5 +378,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3D83EF72-08CE-2256-D7FB-60597BEAF34E}</FileHash>
+	<FileHash>{7AA3C435-C40E-A53E-A700-27F3D115F8E0}</FileHash>
 </SoundBanksInfo>
