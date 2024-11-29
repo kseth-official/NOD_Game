@@ -90,7 +90,7 @@
     "Type": "User",
     "GUID": "{01AE373F-539C-4300-9309-F1CD80D8D985}",
     "Language": "SFX",
-    "Hash": "{9F75ACF1-DF55-069A-2C27-4033EE0BAD6B}",
+    "Hash": "{E988EE84-9A6B-6B34-4AD2-927E5ACCBC97}",
     "ObjectPath": "\\SoundBanks\\Main\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -168,6 +168,14 @@
       "CachePath": "SFX/Crossbow/SFX_Crossbow_DamageTaken_818F3B66.wem"
      },
      {
+      "Id": "236769478",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Violin\\SFX_Violin_CorruptionEntered.wav",
+      "CachePath": "SFX/Violin/SFX_Violin_CorruptionEntered_818F3B66.wem"
+     },
+     {
       "Id": "239609199",
       "Language": "SFX",
       "Streaming": "false",
@@ -190,6 +198,14 @@
       "Location": "Memory",
       "ShortName": "UI\\SFX_MainMenuButton_Hover.wav",
       "CachePath": "SFX/UI/SFX_MainMenuButton_Hover_818F3B66.wem"
+     },
+     {
+      "Id": "347992703",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dialogue\\SFX_HarpNPC_Interacted_01.wav",
+      "CachePath": "SFX/Dialogue/SFX_HarpNPC_Interacted_01_818F3B66.wem"
      },
      {
       "Id": "390568565",
@@ -216,6 +232,14 @@
       "CachePath": "SFX/BGM/BGM_Tutorial_56CEF360.wem"
      },
      {
+      "Id": "491249633",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rhythm\\SFX_Rhythm_DefenseShield_Pulse_01.wav",
+      "CachePath": "SFX/Rhythm/SFX_Rhythm_DefenseShield_Pulse_01_818F3B66.wem"
+     },
+     {
       "Id": "569933072",
       "Language": "SFX",
       "Streaming": "false",
@@ -230,6 +254,14 @@
       "Location": "Memory",
       "ShortName": "UI\\SFX_MainMenuButton_Pressed.wav",
       "CachePath": "SFX/UI/SFX_MainMenuButton_Pressed_818F3B66.wem"
+     },
+     {
+      "Id": "589460783",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dialogue\\SFX_Dialogue_Advanced.wav",
+      "CachePath": "SFX/Dialogue/SFX_Dialogue_Advanced_818F3B66.wem"
      },
      {
       "Id": "666415962",
@@ -304,12 +336,28 @@
       "CachePath": "SFX/Rhythm/MUS_Rhythm_DefenseShield_818F3B66.wem"
      },
      {
+      "Id": "1023516683",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dialogue\\SFX_TutorialPrompt_Activated.wav",
+      "CachePath": "SFX/Dialogue/SFX_TutorialPrompt_Activated_818F3B66.wem"
+     },
+     {
       "Id": "1063407638",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Violin\\SFX_Violin_BasicAttack_03.wav",
       "CachePath": "SFX/Violin/SFX_Violin_BasicAttack_03_818F3B66.wem"
+     },
+     {
+      "Id": "1065866469",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dialogue\\SFX_HarpNPC_Interacted_02.wav",
+      "CachePath": "SFX/Dialogue/SFX_HarpNPC_Interacted_02_818F3B66.wem"
      }
     ],
     "Events": [
@@ -418,6 +466,51 @@
       ]
      },
      {
+      "Id": "2753041483",
+      "Name": "Play_DefenseShield_Pulse",
+      "ObjectPath": "\\Events\\Rhythm\\Play_DefenseShield_Pulse",
+      "GUID": "{9D82078D-8ACB-4FFB-AFF1-2759C11FF98D}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "491249633"
+       }
+      ]
+     },
+     {
+      "Id": "4177665589",
+      "Name": "Play_Dialogue_Advanced",
+      "ObjectPath": "\\Events\\Dialogue\\Play_Dialogue_Advanced",
+      "GUID": "{D5FC3118-8BE5-4055-A043-CF00EF97B156}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "589460783"
+       }
+      ]
+     },
+     {
+      "Id": "3358992548",
+      "Name": "Play_HarpNPC_Interacted",
+      "ObjectPath": "\\Events\\Dialogue\\Play_HarpNPC_Interacted",
+      "GUID": "{E9978E6C-690B-48D4-A7EC-A3F61CD3C401}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "347992703"
+       },
+       {
+        "Id": "1065866469"
+       }
+      ]
+     },
+     {
       "Id": "2844296131",
       "Name": "Play_MainMenuButton_Hover",
       "ObjectPath": "\\Events\\UI\\Play_MainMenuButton_Hover",
@@ -448,7 +541,7 @@
      {
       "Id": "1485927955",
       "Name": "Play_Rhythm_DefenseShield_Failure",
-      "ObjectPath": "\\Events\\Rhythm\\Play_Rhythm_DefenseShield_Failure",
+      "ObjectPath": "\\Events\\Rhythm\\Outcomes\\Play_Rhythm_DefenseShield_Failure",
       "GUID": "{FC23FCDD-1ADA-4861-AFA9-35A5DB9C2A27}",
       "DurationType": "OneShot",
       "DurationMin": "6.428571",
@@ -462,7 +555,7 @@
      {
       "Id": "2570083928",
       "Name": "Play_Rhythm_DefenseShield_Success",
-      "ObjectPath": "\\Events\\Rhythm\\Play_Rhythm_DefenseShield_Success",
+      "ObjectPath": "\\Events\\Rhythm\\Outcomes\\Play_Rhythm_DefenseShield_Success",
       "GUID": "{EF9512E6-5B92-49C1-9E09-BD9CD67966C4}",
       "DurationType": "OneShot",
       "DurationMin": "2.5714285",
@@ -490,7 +583,7 @@
      {
       "Id": "903162942",
       "Name": "Play_Rhythm_SoundWave_Failure",
-      "ObjectPath": "\\Events\\Rhythm\\Play_Rhythm_SoundWave_Failure",
+      "ObjectPath": "\\Events\\Rhythm\\Outcomes\\Play_Rhythm_SoundWave_Failure",
       "GUID": "{CDBCB70A-C102-4626-8AAD-C9DEBB4EE67F}",
       "DurationType": "OneShot",
       "DurationMin": "2.7857144",
@@ -504,7 +597,7 @@
      {
       "Id": "3232719369",
       "Name": "Play_Rhythm_SoundWave_Success",
-      "ObjectPath": "\\Events\\Rhythm\\Play_Rhythm_SoundWave_Success",
+      "ObjectPath": "\\Events\\Rhythm\\Outcomes\\Play_Rhythm_SoundWave_Success",
       "GUID": "{39CCA331-F071-45EB-9B67-3C143469A1C1}",
       "DurationType": "OneShot",
       "DurationMin": "2.142857",
@@ -532,7 +625,7 @@
      {
       "Id": "934338728",
       "Name": "Play_Rhythm_SpeedBoost_Failure",
-      "ObjectPath": "\\Events\\Rhythm\\Play_Rhythm_SpeedBoost_Failure",
+      "ObjectPath": "\\Events\\Rhythm\\Outcomes\\Play_Rhythm_SpeedBoost_Failure",
       "GUID": "{32FE2F0B-9C46-4D94-B857-A31B7BF0920F}",
       "DurationType": "OneShot",
       "DurationMin": "2.378753",
@@ -546,7 +639,7 @@
      {
       "Id": "3804782223",
       "Name": "Play_Rhythm_SpeedBoost_Success",
-      "ObjectPath": "\\Events\\Rhythm\\Play_Rhythm_SpeedBoost_Success",
+      "ObjectPath": "\\Events\\Rhythm\\Outcomes\\Play_Rhythm_SpeedBoost_Success",
       "GUID": "{E4B991AB-FD00-4C98-9526-8D17CB4FC408}",
       "DurationType": "OneShot",
       "DurationMin": "6.428571",
@@ -614,6 +707,20 @@
       ]
      },
      {
+      "Id": "2405121250",
+      "Name": "Play_TutorialPrompt_Activated",
+      "ObjectPath": "\\Events\\Dialogue\\Play_TutorialPrompt_Activated",
+      "GUID": "{FB075053-D2A2-4E20-8D1B-EA7FB6D5563D}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "1023516683"
+       }
+      ]
+     },
+     {
       "Id": "614997430",
       "Name": "Play_Violin_BasicAttack",
       "ObjectPath": "\\Events\\Violin\\Play_Violin_BasicAttack",
@@ -630,6 +737,20 @@
        },
        {
         "Id": "1063407638"
+       }
+      ]
+     },
+     {
+      "Id": "386658844",
+      "Name": "Play_Violin_CorruptionEntered",
+      "ObjectPath": "\\Events\\Violin\\Play_Violin_CorruptionEntered",
+      "GUID": "{07C76D95-E5D5-4A03-8A53-CBF898DB20BA}",
+      "DurationType": "OneShot",
+      "DurationMin": "6",
+      "DurationMax": "6",
+      "MediaRefs": [
+       {
+        "Id": "236769478"
        }
       ]
      },
@@ -748,6 +869,6 @@
     ]
    }
   ],
-  "FileHash": "{C078387A-69C3-D985-A01F-6A8AD9460BAE}"
+  "FileHash": "{C97BF617-EB78-FD0F-A85F-23E24FC80E34}"
  }
 }

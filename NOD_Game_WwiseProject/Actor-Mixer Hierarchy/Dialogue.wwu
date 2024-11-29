@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4C2C3BAF-68CB-46D3-8EC2-2FEF37026DB7}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Dialogue" ID="{4C2C3BAF-68CB-46D3-8EC2-2FEF37026DB7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SFX_Dialogue_Advanced" ID="{BBE69045-ABD4-43B3-9CD6-139E6F611964}" ShortID="101131833">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Dialogue_Advanced" ID="{715DDA77-9D87-4BDF-A8CC-D02B1EFCB254}">
+							<Language>SFX</Language>
+							<AudioFile>Dialogue\SFX_Dialogue_Advanced.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="589460783"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Dialogue_Advanced" ID="{715DDA77-9D87-4BDF-A8CC-D02B1EFCB254}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_TutorialPrompt_Activated" ID="{11846E8D-515F-4780-9DB2-333CCF343E1D}" ShortID="951524432">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_TutorialPrompt_Activated" ID="{DCA8C2DF-C4EF-4A49-ABBC-DF56ADE5634A}">
+							<Language>SFX</Language>
+							<AudioFile>Dialogue\SFX_TutorialPrompt_Activated.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1023516683"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_TutorialPrompt_Activated" ID="{DCA8C2DF-C4EF-4A49-ABBC-DF56ADE5634A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="HarpNPC_Interacted" ID="{F890A0D7-E8E0-4B68-8A18-DB878D58C376}" ShortID="705944941">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_HarpNPC_Interacted_02" ID="{5BD75F7B-1FE9-4D31-9021-3A03E64592D2}" ShortID="832843859">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_HarpNPC_Interacted_02" ID="{96942760-365B-4926-8D7E-1D3457F5025A}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\SFX_HarpNPC_Interacted_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1065866469"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_HarpNPC_Interacted_02" ID="{96942760-365B-4926-8D7E-1D3457F5025A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_HarpNPC_Interacted_01" ID="{A06BAFEA-79AF-4A3D-8229-71EED17C69F1}" ShortID="530421184">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_HarpNPC_Interacted_01" ID="{06683DA5-EC12-4294-8F3B-9C7655263C07}">
+									<Language>SFX</Language>
+									<AudioFile>Dialogue\SFX_HarpNPC_Interacted_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="347992703"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_HarpNPC_Interacted_01" ID="{06683DA5-EC12-4294-8F3B-9C7655263C07}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

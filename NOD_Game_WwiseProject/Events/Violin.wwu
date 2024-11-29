@@ -36,6 +36,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Violin_Spawn" ID="{0232A3A8-0728-40AA-B8C6-794711670927}">
+					<ChildrenList>
+						<Action Name="" ID="{182C4216-9340-4679-8083-A63F8408D839}" ShortID="857540204">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Violin_Spawn" ID="{059A6798-7B4D-41B3-9471-3E10E144A69F}" WorkUnitID="{99E7CA59-1C29-4951-88FD-B44ADE6F61EF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Violin_CorruptionEntered" ID="{07C76D95-E5D5-4A03-8A53-CBF898DB20BA}">
+					<ChildrenList>
+						<Action Name="" ID="{83EFB611-1B0A-4721-8E06-3D8B40AF6D09}" ShortID="458229949">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Violin_CorruptionEntered" ID="{28AE6A62-E79A-4446-8F4E-5EED9FBC26CA}" WorkUnitID="{99E7CA59-1C29-4951-88FD-B44ADE6F61EF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

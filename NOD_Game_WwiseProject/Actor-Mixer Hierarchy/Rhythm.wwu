@@ -201,6 +201,40 @@
 						<ActiveSource Name="SFX_Rhythm_SpeedBoost_Success" ID="{F41E0D76-AE08-4C3E-B1BB-903B61ACF5D6}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="DefenseShield_Pulse" ID="{77AB934C-9095-4E13-A2D5-C58994150CB8}" ShortID="728899895">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Rhythm_DefenseShield_Pulse_01" ID="{6E8E6097-316F-464E-AA2A-63300A79CD7A}" ShortID="884216705">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Rhythm_DefenseShield_Pulse_01" ID="{F6307BE9-1008-416F-9317-1181945CEA73}">
+									<Language>SFX</Language>
+									<AudioFile>Rhythm\SFX_Rhythm_DefenseShield_Pulse_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="491249633"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Rhythm_DefenseShield_Pulse_01" ID="{F6307BE9-1008-416F-9317-1181945CEA73}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
