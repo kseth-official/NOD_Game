@@ -72,8 +72,8 @@ void ABaseGamePaperZDCharacter::SetDirectionFacing(const AActor* ToFace)
 		UKismetMathLibrary::Vector_Normal2D(SelfLocation - TargetLocation, 0.0001)
 	);
 
-	const double angle = atan2(NormalizedLookAtDirection.Y, NormalizedLookAtDirection.X);
-	uint8 index = (static_cast<uint8>((angle + PI) / (PI / 4)) & (8 - 1));
+	const double Angle = atan2(NormalizedLookAtDirection.Y, NormalizedLookAtDirection.X);
+	uint8 Index = (static_cast<uint8>((Angle + PI) / (PI / 4)) & (UDirectionHelper::NumberOfDirections - 1));
 
-	FacingDirection = UDirectionHelper::Directions[index];
+	FacingDirection = UDirectionHelper::Directions[Index];
 }
