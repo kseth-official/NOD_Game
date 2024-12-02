@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AF4DA096-9B28-4C74-BC81-A6CDC3D2EB22}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Crossbow" ID="{AF4DA096-9B28-4C74-BC81-A6CDC3D2EB22}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Crossbow_ArrowFlight" ID="{371A7AF3-ADB5-4E79-869D-28548285855A}">
+					<ChildrenList>
+						<Action Name="" ID="{C1BC213A-20D4-41F2-B18B-87152BA6703F}" ShortID="833222989">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Crossbow_ArrowFlight" ID="{B00F0430-E8C3-42F3-825D-3E51E1984D28}" WorkUnitID="{E67DBF8A-BAC4-4198-8767-EF9185C252B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crossbow_Spawn" ID="{74DD516D-8A95-49DA-AF6C-7903F2C67694}">
+					<ChildrenList>
+						<Action Name="" ID="{4F3A818E-D3D1-4AE1-9DA2-7F9EF5809993}" ShortID="82736561">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Crossbow_Spawn" ID="{94346B96-F80B-4C52-8CA5-31011B2B9E9C}" WorkUnitID="{E67DBF8A-BAC4-4198-8767-EF9185C252B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crossbow_DamageTaken" ID="{E441DAFE-13AF-4B64-B7DD-0620C80C9A53}">
+					<ChildrenList>
+						<Action Name="" ID="{149DAF0E-BDFF-4FCE-9B6D-7D82188D6B42}" ShortID="2709883">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Crossbow_DamageTaken" ID="{D38B9981-701E-4629-A9ED-6FFC67DEA45E}" WorkUnitID="{E67DBF8A-BAC4-4198-8767-EF9185C252B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crossbow_Death" ID="{5B1A3E8E-97A6-4DC6-8EC6-4DE917F1FF3B}">
+					<ChildrenList>
+						<Action Name="" ID="{50F4A929-2025-44B5-9EAD-D55ABCC45B5A}" ShortID="20294485">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Crossbow_Death" ID="{50CD5984-9666-42B9-94A5-00A34DA5FC24}" WorkUnitID="{E67DBF8A-BAC4-4198-8767-EF9185C252B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

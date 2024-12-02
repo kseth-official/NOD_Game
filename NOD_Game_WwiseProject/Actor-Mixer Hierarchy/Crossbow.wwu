@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E67DBF8A-BAC4-4198-8767-EF9185C252B7}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Crossbow" ID="{E67DBF8A-BAC4-4198-8767-EF9185C252B7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SFX_Crossbow_ArrowFlight" ID="{B00F0430-E8C3-42F3-825D-3E51E1984D28}" ShortID="331045302">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Crossbow_ArrowFlight" ID="{B2C4DD4E-24EB-4C9C-BDFC-E8D0DE3C1CCF}">
+							<Language>SFX</Language>
+							<AudioFile>Crossbow\SFX_Crossbow_ArrowFlight.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="685433719"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Crossbow_ArrowFlight" ID="{B2C4DD4E-24EB-4C9C-BDFC-E8D0DE3C1CCF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Crossbow_DamageTaken" ID="{D38B9981-701E-4629-A9ED-6FFC67DEA45E}" ShortID="1059158660">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Crossbow_DamageTaken" ID="{05EF15E8-132B-401F-905B-376978C61ACD}">
+							<Language>SFX</Language>
+							<AudioFile>Crossbow\SFX_Crossbow_DamageTaken.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="219851386"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Crossbow_DamageTaken" ID="{05EF15E8-132B-401F-905B-376978C61ACD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Crossbow_Death" ID="{50CD5984-9666-42B9-94A5-00A34DA5FC24}" ShortID="760547751">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Crossbow_Death" ID="{65D56658-62FE-44AA-A6A7-967DA610AC99}">
+							<Language>SFX</Language>
+							<AudioFile>Crossbow\SFX_Crossbow_Death.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="792102756"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Crossbow_Death" ID="{65D56658-62FE-44AA-A6A7-967DA610AC99}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Crossbow_Spawn" ID="{94346B96-F80B-4C52-8CA5-31011B2B9E9C}" ShortID="77019188">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Crossbow_Spawn" ID="{F1A09F54-721C-4EC2-A205-06D6A2C80C8A}">
+							<Language>SFX</Language>
+							<AudioFile>Crossbow\SFX_Crossbow_Spawn.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="25100942"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Crossbow_Spawn" ID="{F1A09F54-721C-4EC2-A205-06D6A2C80C8A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

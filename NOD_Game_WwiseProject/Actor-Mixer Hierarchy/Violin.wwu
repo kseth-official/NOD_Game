@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{99E7CA59-1C29-4951-88FD-B44ADE6F61EF}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Violin" ID="{99E7CA59-1C29-4951-88FD-B44ADE6F61EF}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="SFX_Violin_BasicAttack" ID="{06950189-D052-4423-B794-6BA497EDF288}" ShortID="243098564">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Violin_BasicAttack_01" ID="{74B4FB6B-38B5-4278-942C-4CCC55C08A5F}" ShortID="531244037">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Violin_BasicAttack_01" ID="{E4CBA7FA-57AD-4380-95E4-5E9C552A2D80}">
+									<Language>SFX</Language>
+									<AudioFile>Violin\SFX_Violin_BasicAttack_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="666415962"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Violin_BasicAttack_01" ID="{E4CBA7FA-57AD-4380-95E4-5E9C552A2D80}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Violin_BasicAttack_02" ID="{3BA2E0C3-8AF0-4B40-99AB-207E9DCCD7DA}" ShortID="189779615">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Violin_BasicAttack_02" ID="{F5AB441D-30F2-4702-A1C2-C6D0011F63ED}">
+									<Language>SFX</Language>
+									<AudioFile>Violin\SFX_Violin_BasicAttack_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="279612480"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Violin_BasicAttack_02" ID="{F5AB441D-30F2-4702-A1C2-C6D0011F63ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Violin_BasicAttack_03" ID="{5EEFFA4E-EBD9-4362-A357-568F2EE5C896}" ShortID="802391392">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Violin_BasicAttack_03" ID="{82E78931-1F8B-41B9-8D15-2F9C331FE7D6}">
+									<Language>SFX</Language>
+									<AudioFile>Violin\SFX_Violin_BasicAttack_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1063407638"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Violin_BasicAttack_03" ID="{82E78931-1F8B-41B9-8D15-2F9C331FE7D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="SFX_Violin_Death" ID="{E7A10F96-5793-4E87-8BB7-09E796A44228}" ShortID="1011391313">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Violin_Death" ID="{9A2E9F31-8E5F-4D0F-A7A8-416BFA5FBC42}">
+							<Language>SFX</Language>
+							<AudioFile>Violin\SFX_Violin_Death.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="854794988"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Violin_Death" ID="{9A2E9F31-8E5F-4D0F-A7A8-416BFA5FBC42}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Violin_DamageTaken" ID="{0CFA388A-1A65-4FB5-BE52-EDF811902DA9}" ShortID="571349369">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Violin_DamageTaken" ID="{C8F481F2-848D-40D7-A100-9F796EADDFA6}">
+							<Language>SFX</Language>
+							<AudioFile>Violin\SFX_Violin_DamageTaken.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="195368164"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Violin_DamageTaken" ID="{C8F481F2-848D-40D7-A100-9F796EADDFA6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Violin_Spawn" ID="{059A6798-7B4D-41B3-9471-3E10E144A69F}" ShortID="106234685">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Violin_Spawn" ID="{CFBFD90F-04D2-41A5-9184-FA9F49709BFA}">
+							<Language>SFX</Language>
+							<AudioFile>Violin\SFX_Violin_Spawn.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="171458937"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Violin_Spawn" ID="{CFBFD90F-04D2-41A5-9184-FA9F49709BFA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Violin_CorruptionEntered" ID="{28AE6A62-E79A-4446-8F4E-5EED9FBC26CA}" ShortID="1009199902">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Violin_CorruptionEntered" ID="{789F8150-7BDE-47EB-85A6-EB9149D21163}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Violin\SFX_Violin_CorruptionEntered.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="236769478"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Violin_CorruptionEntered" ID="{789F8150-7BDE-47EB-85A6-EB9149D21163}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

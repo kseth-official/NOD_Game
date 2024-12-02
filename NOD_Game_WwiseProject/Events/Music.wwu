@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F4725346-D9A5-41AB-ADA7-29D6D8B93A57}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Music" ID="{F4725346-D9A5-41AB-ADA7-29D6D8B93A57}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_BGMSwitch" ID="{A6BDE8A7-DA64-4586-AF7C-FB9960D046C1}">
+					<ChildrenList>
+						<Action Name="" ID="{1D90019A-6FFA-41F3-8897-0E0D80080FCE}" ShortID="932908513">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGMSwitch" ID="{740E09BC-1BBE-4B9A-86D8-879822ABFA4A}" WorkUnitID="{6B869D19-6CD9-4C9A-B95D-0BB985E9B09A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BGM_Tutorial" ID="{6084FBE7-3FAF-4BDD-BDA9-695C97D08BFF}">
+					<ChildrenList>
+						<Action Name="" ID="{3D15F092-1B1C-446F-A785-1259E7EB02E4}" ShortID="1053565493">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_Tutorial" ID="{CD7C8E82-84D7-421E-970F-F80810060DD6}" WorkUnitID="{6B869D19-6CD9-4C9A-B95D-0BB985E9B09A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BGM_MainMenu" ID="{4B6FE446-6607-422A-96B3-0AF7C94A0C15}">
+					<ChildrenList>
+						<Action Name="" ID="{3EBF67D4-E15A-4098-ABEC-DA9F5D710856}" ShortID="398331955">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_Main_Menu" ID="{FEDD87E5-F293-4B72-9885-AFDE6BE53EF4}" WorkUnitID="{6B869D19-6CD9-4C9A-B95D-0BB985E9B09A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BGM_Tutorial_Boss" ID="{07928233-0E01-455E-B06A-4EA5D3E93E75}">
+					<ChildrenList>
+						<Action Name="" ID="{BDB5CD8B-8E9A-488D-9094-3D811BF10FEB}" ShortID="368114432">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_Tutorial_Boss" ID="{8F0B8292-8CB2-4DDC-8BE7-DAAB40EBB869}" WorkUnitID="{6B869D19-6CD9-4C9A-B95D-0BB985E9B09A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0F46C1F2-3B20-4B25-80B1-EE5FAEE3793F}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="UI" ID="{0F46C1F2-3B20-4B25-80B1-EE5FAEE3793F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SFX_MainMenuButton_Hover" ID="{6B7228F0-11BC-43E1-AAA4-9357D48CC5BA}" ShortID="402301272">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_MainMenuButton_Hover" ID="{6AF7D6CB-D868-49DB-993E-2A87C22A069B}">
+							<Language>SFX</Language>
+							<AudioFile>UI\SFX_MainMenuButton_Hover.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="319916350"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_MainMenuButton_Hover" ID="{6AF7D6CB-D868-49DB-993E-2A87C22A069B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_MainMenuButton_Pressed" ID="{9F0E022A-97AC-4222-8EC0-8649440D57CC}" ShortID="303182994">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{53BD7F31-C2EF-487F-8548-73CA5991C177}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{600E4FEA-FB40-46EB-8B93-F3F58E98A2E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_MainMenuButton_Pressed" ID="{EA4F955A-BC33-4A5A-9586-679E2526928F}">
+							<Language>SFX</Language>
+							<AudioFile>UI\SFX_MainMenuButton_Pressed.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="584361667"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_MainMenuButton_Pressed" ID="{EA4F955A-BC33-4A5A-9586-679E2526928F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7BAAC32C-9701-4B87-B5C5-05DF27E0F32A}" SchemaVersion="119">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{7BAAC32C-9701-4B87-B5C5-05DF27E0F32A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7BAAC32C-9701-4B87-B5C5-05DF27E0F32A}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="AreaState" ID="{3E39C3F8-2E37-428D-BB92-7ED085166989}">
+					<ChildrenList>
+						<State Name="None" ID="{D23E6C62-63E3-4993-B50E-CC69AF7F15C7}"/>
+						<State Name="MainMenu" ID="{58BBBD3C-3A65-40D9-BADA-386F3F47F234}"/>
+						<State Name="Tutorial" ID="{394F9CBE-784E-4689-8626-EB9DD8FBF64B}"/>
+						<State Name="TutorialBoss" ID="{A94AFFB7-E9A5-495F-A698-B031F9698EB3}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{48248952-81B3-4B1C-9B91-9E09E1B6AF63}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Violin" ID="{48248952-81B3-4B1C-9B91-9E09E1B6AF63}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Violin_BasicAttack" ID="{274D91A0-5C9B-41AD-B7CA-4828A56E84B2}">
+					<ChildrenList>
+						<Action Name="" ID="{EEEC6D1C-DD63-496C-9AEE-A966B085B2A5}" ShortID="608186096">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Violin_BasicAttack" ID="{06950189-D052-4423-B794-6BA497EDF288}" WorkUnitID="{99E7CA59-1C29-4951-88FD-B44ADE6F61EF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Violin_Death" ID="{26CAAEA8-8F41-4BCB-B075-D51C48C78349}">
+					<ChildrenList>
+						<Action Name="" ID="{FAE2B5AB-5316-4624-B531-1A3A46E330E8}" ShortID="596885867">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Violin_Death" ID="{E7A10F96-5793-4E87-8BB7-09E796A44228}" WorkUnitID="{99E7CA59-1C29-4951-88FD-B44ADE6F61EF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Violin_DamageTaken" ID="{80C2A5AE-5724-46ED-9295-E28882D8F79E}">
+					<ChildrenList>
+						<Action Name="" ID="{406EABF7-1618-4715-B76C-D9EC47EE57D1}" ShortID="816871620">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Violin_DamageTaken" ID="{0CFA388A-1A65-4FB5-BE52-EDF811902DA9}" WorkUnitID="{99E7CA59-1C29-4951-88FD-B44ADE6F61EF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Violin_Spawn" ID="{0232A3A8-0728-40AA-B8C6-794711670927}">
+					<ChildrenList>
+						<Action Name="" ID="{182C4216-9340-4679-8083-A63F8408D839}" ShortID="857540204">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Violin_Spawn" ID="{059A6798-7B4D-41B3-9471-3E10E144A69F}" WorkUnitID="{99E7CA59-1C29-4951-88FD-B44ADE6F61EF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Violin_CorruptionEntered" ID="{07C76D95-E5D5-4A03-8A53-CBF898DB20BA}">
+					<ChildrenList>
+						<Action Name="" ID="{83EFB611-1B0A-4721-8E06-3D8B40AF6D09}" ShortID="458229949">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Violin_CorruptionEntered" ID="{28AE6A62-E79A-4446-8F4E-5EED9FBC26CA}" WorkUnitID="{99E7CA59-1C29-4951-88FD-B44ADE6F61EF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

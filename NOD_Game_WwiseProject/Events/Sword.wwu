@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{55FCED3C-78B4-4D5E-8477-E12902C49853}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Sword" ID="{55FCED3C-78B4-4D5E-8477-E12902C49853}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Sword_DamageTaken" ID="{D113A297-220F-418B-8D4E-7A3841CD4DD5}">
+					<ChildrenList>
+						<Action Name="" ID="{FCF87A46-B985-4FF4-90C0-DFF057B1F6E2}" ShortID="480416680">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Sword_DamageTaken" ID="{44FE9A0F-7DDE-4758-A3A8-3C7D6E003AF7}" WorkUnitID="{EC2DBE99-54DE-48AA-BC00-17278042B89B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sword_Death" ID="{ECAA7FF9-8B49-43A5-86C7-A3738E1F246B}">
+					<ChildrenList>
+						<Action Name="" ID="{7A927EA6-9EE3-4CD6-AF00-04A5769BBA00}" ShortID="950917923">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Sword_Death" ID="{CFA6F8B8-4991-4ACB-98B5-E28013C3D4B1}" WorkUnitID="{EC2DBE99-54DE-48AA-BC00-17278042B89B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sword_Spawn" ID="{C3A846CD-014A-47A7-BA8D-6111B7C85A85}">
+					<ChildrenList>
+						<Action Name="" ID="{51483288-3838-4425-8DFE-C5F300F8C3EE}" ShortID="967230439">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Sword_Spawn" ID="{480C5325-CE39-468E-9829-D946FA698453}" WorkUnitID="{EC2DBE99-54DE-48AA-BC00-17278042B89B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

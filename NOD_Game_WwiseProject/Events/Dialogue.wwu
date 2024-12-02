@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A6CCEF9D-59D8-41B9-ABD6-BF2C77A54079}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Dialogue" ID="{A6CCEF9D-59D8-41B9-ABD6-BF2C77A54079}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_TutorialPrompt_Activated" ID="{FB075053-D2A2-4E20-8D1B-EA7FB6D5563D}">
+					<ChildrenList>
+						<Action Name="" ID="{CC4F1A6C-8B3C-4A12-AEEC-6FC67B29EBFB}" ShortID="535196079">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_TutorialPrompt_Activated" ID="{11846E8D-515F-4780-9DB2-333CCF343E1D}" WorkUnitID="{4C2C3BAF-68CB-46D3-8EC2-2FEF37026DB7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HarpNPC_Interacted" ID="{E9978E6C-690B-48D4-A7EC-A3F61CD3C401}">
+					<ChildrenList>
+						<Action Name="" ID="{3EBA7FEC-85D4-4F0D-958A-D80C1B94816E}" ShortID="505215395">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HarpNPC_Interacted" ID="{F890A0D7-E8E0-4B68-8A18-DB878D58C376}" WorkUnitID="{4C2C3BAF-68CB-46D3-8EC2-2FEF37026DB7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dialogue_Advanced" ID="{D5FC3118-8BE5-4055-A043-CF00EF97B156}">
+					<ChildrenList>
+						<Action Name="" ID="{332E5BBE-1738-4C5B-9E78-AB547755E011}" ShortID="824564821">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Dialogue_Advanced" ID="{BBE69045-ABD4-43B3-9CD6-139E6F611964}" WorkUnitID="{4C2C3BAF-68CB-46D3-8EC2-2FEF37026DB7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
