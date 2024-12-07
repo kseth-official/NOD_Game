@@ -44,9 +44,6 @@ void UPlayerInputComponent::SetupInputActions()
 void UPlayerInputComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction)
 {
     Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-    // Your per-frame logic goes here
-    // UE_LOG(LogTemp, Warning, TEXT("Ticking every frame! Delta Time: %f"), DeltaTime);
 }
 
 void UPlayerInputComponent::SetKeyPressFlag(EKeyPress KeyPress) {
