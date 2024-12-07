@@ -105,6 +105,16 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Playlist">
+							<Reference>
+								<ObjectRef Name="SFX_HarpNPC_Interacted_01" ID="{A06BAFEA-79AF-4A3D-8229-71EED17C69F1}" WorkUnitID="{4C2C3BAF-68CB-46D3-8EC2-2FEF37026DB7}"/>
+							</Reference>
+							<Reference>
+								<ObjectRef Name="SFX_HarpNPC_Interacted_02" ID="{5BD75F7B-1FE9-4D31-9021-3A03E64592D2}" WorkUnitID="{4C2C3BAF-68CB-46D3-8EC2-2FEF37026DB7}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
