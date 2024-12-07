@@ -90,7 +90,7 @@
     "Type": "User",
     "GUID": "{01AE373F-539C-4300-9309-F1CD80D8D985}",
     "Language": "SFX",
-    "Hash": "{F18A923F-32DE-BBAC-0CEB-44BE5967FEC6}",
+    "Hash": "{88AEFF4D-3A5D-1F15-200A-CD56132C8424}",
     "ObjectPath": "\\SoundBanks\\Main\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -541,8 +541,8 @@
       "ObjectPath": "\\Events\\Dialogue\\Play_HarpNPC_Interacted",
       "GUID": "{E9978E6C-690B-48D4-A7EC-A3F61CD3C401}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationMin": "1.5",
+      "DurationMax": "1.5",
       "MediaRefs": [
        {
         "Id": "347992703"
@@ -911,6 +911,6 @@
     ]
    }
   ],
-  "FileHash": "{EE7D9AFF-47F6-6F02-3A6A-B3EC7593F157}"
+  "FileHash": "{2353F447-EB0B-3B0C-49B2-858B89B8FA41}"
  }
 }
