@@ -33,7 +33,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{01AE373F-539C-4300-9309-F1CD80D8D985}" Language="SFX" Hash="{F18A923F-32DE-BBAC-0CEB-44BE5967FEC6}">
+		<SoundBank Id="3161908922" Type="User" GUID="{01AE373F-539C-4300-9309-F1CD80D8D985}" Language="SFX" Hash="{88AEFF4D-3A5D-1F15-200A-CD56132C8424}">
 			<ObjectPath>\SoundBanks\Main\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -239,7 +239,7 @@
 						<MediaRef Id="589460783"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3358992548" Name="Play_HarpNPC_Interacted" ObjectPath="\Events\Dialogue\Play_HarpNPC_Interacted" GUID="{E9978E6C-690B-48D4-A7EC-A3F61CD3C401}" DurationType="OneShot" DurationMin="0" DurationMax="0">
+				<Event Id="3358992548" Name="Play_HarpNPC_Interacted" ObjectPath="\Events\Dialogue\Play_HarpNPC_Interacted" GUID="{E9978E6C-690B-48D4-A7EC-A3F61CD3C401}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
 					<MediaRefs>
 						<MediaRef Id="347992703"/>
 						<MediaRef Id="1065866469"/>
@@ -378,5 +378,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7AA3C435-C40E-A53E-A700-27F3D115F8E0}</FileHash>
+	<FileHash>{A411B6F0-71C0-949B-C7E5-756B4688BF17}</FileHash>
 </SoundBanksInfo>
