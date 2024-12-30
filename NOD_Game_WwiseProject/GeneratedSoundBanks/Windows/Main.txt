@@ -45,13 +45,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	144836579	SFX_Rhythm_SoundWave_Failure	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\SFX_Rhythm_SoundWave_Failure_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\SFX_Rhythm_SoundWave_Failure		491496
 	165497590	SFX_Rhythm_SpeedBoost_Success	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\SFX_Rhythm_SpeedBoost_Success_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\SFX_Rhythm_SpeedBoost_Success		1134096
 	171458937	SFX_Violin_Spawn	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Violin\SFX_Violin_Spawn_818F3B66.wem		\Actor-Mixer Hierarchy\Violin\SFX_Violin_Spawn		1609748
-	174881815	MUS_Rhythm_SpeedBoost	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\MUS_Rhythm_SpeedBoost_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\MUS_Rhythm_SpeedBoost		962280
+	174881815	MUS_Rhythm_SpeedBoost	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\MUS_Rhythm_SpeedBoost_C1A8B84D.wem		\Actor-Mixer Hierarchy\Rhythm\MUS_Rhythm_SpeedBoost		592672
 	181508161	BGM_Main_Menu	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\BGM\BGM_Main_Menu_56CEF360.wem		\Interactive Music Hierarchy\Music\BGMSwitch\BGM_Main_Menu\BGM_Main_Menu		961361
 	182540190	SFX_Rhythm_DefenseShield_Success	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\SFX_Rhythm_DefenseShield_Success_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\SFX_Rhythm_DefenseShield_Success		453696
 	195368164	SFX_Violin_DamageTaken	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Violin\SFX_Violin_DamageTaken_818F3B66.wem		\Actor-Mixer Hierarchy\Violin\SFX_Violin_DamageTaken		457568
 	219851386	SFX_Crossbow_DamageTaken	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Crossbow\SFX_Crossbow_DamageTaken_818F3B66.wem		\Actor-Mixer Hierarchy\Crossbow\SFX_Crossbow_DamageTaken		698276
 	236769478	SFX_Violin_CorruptionEntered	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Violin\SFX_Violin_CorruptionEntered_818F3B66.wem		\Actor-Mixer Hierarchy\Violin\SFX_Violin_CorruptionEntered		1058496
-	239609199	MUS_Rhythm_SoundWave	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\MUS_Rhythm_SoundWave_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\MUS_Rhythm_SoundWave		962280
+	239609199	MUS_Rhythm_SoundWave	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\MUS_Rhythm_SoundWave_6003E579.wem		\Actor-Mixer Hierarchy\Rhythm\MUS_Rhythm_SoundWave		638872
 	279612480	SFX_Violin_BasicAttack_02	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Violin\SFX_Violin_BasicAttack_02_818F3B66.wem		\Actor-Mixer Hierarchy\Violin\SFX_Violin_BasicAttack\SFX_Violin_BasicAttack_02		121956
 	319916350	SFX_MainMenuButton_Hover	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\UI\SFX_MainMenuButton_Hover_818F3B66.wem		\Actor-Mixer Hierarchy\UI\SFX_MainMenuButton_Hover		766044
 	347992703	SFX_HarpNPC_Interacted_01	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Dialogue\SFX_HarpNPC_Interacted_01_818F3B66.wem		\Actor-Mixer Hierarchy\Dialogue\HarpNPC_Interacted\SFX_HarpNPC_Interacted_01		264696
@@ -70,7 +70,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	857039541	SFX_Sword_DamageTaken	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Sword\SFX_Sword_DamageTaken_818F3B66.wem		\Actor-Mixer Hierarchy\Sword\SFX_Sword_DamageTaken		128852
 	873631487	SFX_Rhythm_SpeedBoost_Failure	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\SFX_Rhythm_SpeedBoost_Failure_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\SFX_Rhythm_SpeedBoost_Failure		419708
 	959171433	SFX_Sword_Death	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Sword\SFX_Sword_Death_818F3B66.wem		\Actor-Mixer Hierarchy\Sword\SFX_Sword_Death		267388
-	988959284	MUS_Rhythm_DefenseShield	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\MUS_Rhythm_DefenseShield_818F3B66.wem		\Actor-Mixer Hierarchy\Rhythm\MUS_Rhythm_DefenseShield		962280
+	988959284	MUS_Rhythm_DefenseShield	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Rhythm\MUS_Rhythm_DefenseShield_3342EEAD.wem		\Actor-Mixer Hierarchy\Rhythm\MUS_Rhythm_DefenseShield		620796
 	1023516683	SFX_TutorialPrompt_Activated	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Dialogue\SFX_TutorialPrompt_Activated_818F3B66.wem		\Actor-Mixer Hierarchy\Dialogue\SFX_TutorialPrompt_Activated		352896
 	1063407638	SFX_Violin_BasicAttack_03	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Violin\SFX_Violin_BasicAttack_03_818F3B66.wem		\Actor-Mixer Hierarchy\Violin\SFX_Violin_BasicAttack\SFX_Violin_BasicAttack_03		121956
 	1065866469	SFX_HarpNPC_Interacted_02	C:\Dev\NOD_Game\NOD_Game_WwiseProject\.cache\Windows\SFX\Dialogue\SFX_HarpNPC_Interacted_02_818F3B66.wem		\Actor-Mixer Hierarchy\Dialogue\HarpNPC_Interacted\SFX_HarpNPC_Interacted_02		264696

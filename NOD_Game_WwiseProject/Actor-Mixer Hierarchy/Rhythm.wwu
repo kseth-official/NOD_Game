@@ -14,6 +14,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="MUS_Rhythm_DefenseShield" ID="{335A451C-1DDB-48B6-9C6C-B736690931EC}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.5187022282817"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Rhythm\MUS_Rhythm_DefenseShield.wav</AudioFile>
 							<MediaIDList>
@@ -36,6 +41,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="MUS_Rhythm_SoundWave" ID="{8F0B8C3F-0AC3-4AD6-A19E-38D79F7286A8}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.6211887009501"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Rhythm\MUS_Rhythm_SoundWave.wav</AudioFile>
 							<MediaIDList>
@@ -58,6 +67,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="MUS_Rhythm_SpeedBoost" ID="{C74314BF-3B22-4D0A-BEA1-6BF6F3866989}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.35927882635308"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Rhythm\MUS_Rhythm_SpeedBoost.wav</AudioFile>
 							<MediaIDList>
