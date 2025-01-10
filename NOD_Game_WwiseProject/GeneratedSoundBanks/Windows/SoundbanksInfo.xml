@@ -33,7 +33,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{01AE373F-539C-4300-9309-F1CD80D8D985}" Language="SFX" Hash="{F18A923F-32DE-BBAC-0CEB-44BE5967FEC6}">
+		<SoundBank Id="3161908922" Type="User" GUID="{01AE373F-539C-4300-9309-F1CD80D8D985}" Language="SFX" Hash="{CA6EFF0A-D3E7-D3C3-B6AE-1708F1C53E66}">
 			<ObjectPath>\SoundBanks\Main\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -56,7 +56,7 @@
 				</File>
 				<File Id="174881815" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rhythm\MUS_Rhythm_SpeedBoost.wav</ShortName>
-					<CachePath>SFX/Rhythm/MUS_Rhythm_SpeedBoost_818F3B66.wem</CachePath>
+					<CachePath>SFX/Rhythm/MUS_Rhythm_SpeedBoost_C1A8B84D.wem</CachePath>
 				</File>
 				<File Id="181508161" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BGM\BGM_Main_Menu.wav</ShortName>
@@ -80,7 +80,7 @@
 				</File>
 				<File Id="239609199" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rhythm\MUS_Rhythm_SoundWave.wav</ShortName>
-					<CachePath>SFX/Rhythm/MUS_Rhythm_SoundWave_818F3B66.wem</CachePath>
+					<CachePath>SFX/Rhythm/MUS_Rhythm_SoundWave_6003E579.wem</CachePath>
 				</File>
 				<File Id="279612480" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Violin\SFX_Violin_BasicAttack_02.wav</ShortName>
@@ -156,7 +156,7 @@
 				</File>
 				<File Id="988959284" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rhythm\MUS_Rhythm_DefenseShield.wav</ShortName>
-					<CachePath>SFX/Rhythm/MUS_Rhythm_DefenseShield_818F3B66.wem</CachePath>
+					<CachePath>SFX/Rhythm/MUS_Rhythm_DefenseShield_3342EEAD.wem</CachePath>
 				</File>
 				<File Id="1023516683" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dialogue\SFX_TutorialPrompt_Activated.wav</ShortName>
@@ -239,7 +239,7 @@
 						<MediaRef Id="589460783"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3358992548" Name="Play_HarpNPC_Interacted" ObjectPath="\Events\Dialogue\Play_HarpNPC_Interacted" GUID="{E9978E6C-690B-48D4-A7EC-A3F61CD3C401}" DurationType="OneShot" DurationMin="0" DurationMax="0">
+				<Event Id="3358992548" Name="Play_HarpNPC_Interacted" ObjectPath="\Events\Dialogue\Play_HarpNPC_Interacted" GUID="{E9978E6C-690B-48D4-A7EC-A3F61CD3C401}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
 					<MediaRefs>
 						<MediaRef Id="347992703"/>
 						<MediaRef Id="1065866469"/>
@@ -265,7 +265,7 @@
 						<MediaRef Id="182540190"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="613775276" Name="Play_Rhythm_DefenseShield_Track" ObjectPath="\Events\Rhythm\Tracks\Play_Rhythm_DefenseShield_Track" GUID="{0919DC64-6E59-4934-A1FE-2FBA734DA64A}" DurationType="OneShot" DurationMin="5.454558" DurationMax="5.454558">
+				<Event Id="613775276" Name="Play_Rhythm_DefenseShield_Track" ObjectPath="\Events\Rhythm\Tracks\Play_Rhythm_DefenseShield_Track" GUID="{0919DC64-6E59-4934-A1FE-2FBA734DA64A}" DurationType="OneShot" DurationMin="3.5187023" DurationMax="3.5187023">
 					<MediaRefs>
 						<MediaRef Id="988959284"/>
 					</MediaRefs>
@@ -280,7 +280,7 @@
 						<MediaRef Id="430296899"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2215600837" Name="Play_Rhythm_SoundWave_Track" ObjectPath="\Events\Rhythm\Tracks\Play_Rhythm_SoundWave_Track" GUID="{1EE0EFEB-B4E0-4588-AF2B-7C3E1965314A}" DurationType="OneShot" DurationMin="5.454558" DurationMax="5.454558">
+				<Event Id="2215600837" Name="Play_Rhythm_SoundWave_Track" ObjectPath="\Events\Rhythm\Tracks\Play_Rhythm_SoundWave_Track" GUID="{1EE0EFEB-B4E0-4588-AF2B-7C3E1965314A}" DurationType="OneShot" DurationMin="3.6211886" DurationMax="3.6211886">
 					<MediaRefs>
 						<MediaRef Id="239609199"/>
 					</MediaRefs>
@@ -295,7 +295,7 @@
 						<MediaRef Id="165497590"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="640616963" Name="Play_Rhythm_SpeedBoost_Track" ObjectPath="\Events\Rhythm\Tracks\Play_Rhythm_SpeedBoost_Track" GUID="{9D5B881A-3892-4890-B51A-F2CEE1D8F840}" DurationType="OneShot" DurationMin="5.454558" DurationMax="5.454558">
+				<Event Id="640616963" Name="Play_Rhythm_SpeedBoost_Track" ObjectPath="\Events\Rhythm\Tracks\Play_Rhythm_SpeedBoost_Track" GUID="{9D5B881A-3892-4890-B51A-F2CEE1D8F840}" DurationType="OneShot" DurationMin="3.359279" DurationMax="3.359279">
 					<MediaRefs>
 						<MediaRef Id="174881815"/>
 					</MediaRefs>
@@ -378,5 +378,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7AA3C435-C40E-A53E-A700-27F3D115F8E0}</FileHash>
+	<FileHash>{FEC50870-94DF-5FD7-7785-CF8057F817AD}</FileHash>
 </SoundBanksInfo>

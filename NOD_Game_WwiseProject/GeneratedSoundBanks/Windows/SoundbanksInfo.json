@@ -90,7 +90,7 @@
     "Type": "User",
     "GUID": "{01AE373F-539C-4300-9309-F1CD80D8D985}",
     "Language": "SFX",
-    "Hash": "{F18A923F-32DE-BBAC-0CEB-44BE5967FEC6}",
+    "Hash": "{CA6EFF0A-D3E7-D3C3-B6AE-1708F1C53E66}",
     "ObjectPath": "\\SoundBanks\\Main\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -133,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rhythm\\MUS_Rhythm_SpeedBoost.wav",
-      "CachePath": "SFX/Rhythm/MUS_Rhythm_SpeedBoost_818F3B66.wem"
+      "CachePath": "SFX/Rhythm/MUS_Rhythm_SpeedBoost_C1A8B84D.wem"
      },
      {
       "Id": "181508161",
@@ -181,7 +181,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rhythm\\MUS_Rhythm_SoundWave.wav",
-      "CachePath": "SFX/Rhythm/MUS_Rhythm_SoundWave_818F3B66.wem"
+      "CachePath": "SFX/Rhythm/MUS_Rhythm_SoundWave_6003E579.wem"
      },
      {
       "Id": "279612480",
@@ -333,7 +333,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rhythm\\MUS_Rhythm_DefenseShield.wav",
-      "CachePath": "SFX/Rhythm/MUS_Rhythm_DefenseShield_818F3B66.wem"
+      "CachePath": "SFX/Rhythm/MUS_Rhythm_DefenseShield_3342EEAD.wem"
      },
      {
       "Id": "1023516683",
@@ -541,8 +541,8 @@
       "ObjectPath": "\\Events\\Dialogue\\Play_HarpNPC_Interacted",
       "GUID": "{E9978E6C-690B-48D4-A7EC-A3F61CD3C401}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationMin": "1.5",
+      "DurationMax": "1.5",
       "MediaRefs": [
        {
         "Id": "347992703"
@@ -614,8 +614,8 @@
       "ObjectPath": "\\Events\\Rhythm\\Tracks\\Play_Rhythm_DefenseShield_Track",
       "GUID": "{0919DC64-6E59-4934-A1FE-2FBA734DA64A}",
       "DurationType": "OneShot",
-      "DurationMin": "5.454558",
-      "DurationMax": "5.454558",
+      "DurationMin": "3.5187023",
+      "DurationMax": "3.5187023",
       "MediaRefs": [
        {
         "Id": "988959284"
@@ -656,8 +656,8 @@
       "ObjectPath": "\\Events\\Rhythm\\Tracks\\Play_Rhythm_SoundWave_Track",
       "GUID": "{1EE0EFEB-B4E0-4588-AF2B-7C3E1965314A}",
       "DurationType": "OneShot",
-      "DurationMin": "5.454558",
-      "DurationMax": "5.454558",
+      "DurationMin": "3.6211886",
+      "DurationMax": "3.6211886",
       "MediaRefs": [
        {
         "Id": "239609199"
@@ -698,8 +698,8 @@
       "ObjectPath": "\\Events\\Rhythm\\Tracks\\Play_Rhythm_SpeedBoost_Track",
       "GUID": "{9D5B881A-3892-4890-B51A-F2CEE1D8F840}",
       "DurationType": "OneShot",
-      "DurationMin": "5.454558",
-      "DurationMax": "5.454558",
+      "DurationMin": "3.359279",
+      "DurationMax": "3.359279",
       "MediaRefs": [
        {
         "Id": "174881815"
@@ -911,6 +911,6 @@
     ]
    }
   ],
-  "FileHash": "{EE7D9AFF-47F6-6F02-3A6A-B3EC7593F157}"
+  "FileHash": "{79F047A8-C306-DA8A-F2A8-65AA4E682E06}"
  }
 }
