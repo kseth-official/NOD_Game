@@ -5,4 +5,4 @@ Notes of Destiny is a high-fantasy HD-2D RPG focusing uniquely on a musical worl
 
 The game combines rhythm elements with a regular RPG, where you activate your abilities by playing a short rhythm minigame.
 
-Developed with Unreal Engine 5 by Flow State Interactive Inc.
+Developed with Unreal Engine 5.
