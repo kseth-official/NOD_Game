@@ -1,8 +1,8 @@
 # Notes of Destiny
+<mark style="background-color: grey">This project was officially discontinued on the 15th of March, 2025.</mark>
+
 - [Play the final build here](https://flow-state-interactive.itch.io/notes-of-destiny)
 - [Notion Kanban Board](https://kush-sethi.notion.site/eab597389bf74234a3cabbceb9ad8894?v=67d6b0a8d601456283f25f0849d79219&pvs=4)
-
-<mark style="background-color: grey">This project was officially discontinued on the 15th of March, 2025.</mark>
 
 Notes of Destiny is a high-fantasy HD-2D RPG focusing uniquely on a musical world. 
 
